@@ -1,0 +1,7 @@
+organization {
+    name,
+    stats {
+      name,
+      value
+    }
+}

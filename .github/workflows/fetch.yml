@@ -1,0 +1,30 @@
+name: Fetch data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 1 * * *'
+jobs:
+  scrape:
+    name: Fetch data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - run: pip3 install --pre -r requirements.txt
+      - name: Fetch data
+        run: python3 run.py
+      - name: Commit the data
+        uses: nick-invision/retry@v2
+        with:
+          timeout_seconds: 10
+          max_attempts: 5
+          command: |
+            git config --global user.name 'Pierre Mesure (Github Actions)'
+            git config --global user.email 'pierre@mesu.re'
+            git config --global rebase.autoStash true
+            git pull --rebase
+            git add organizations.csv
+            git commit -am "Updating the data"
+            git push
