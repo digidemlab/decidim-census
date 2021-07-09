@@ -1,112 +1,116 @@
 url,app_name,name,version,users_count,processes_count,assemblies_count,comments_count,users,participatory_processes,assemblies,comments,meetings,proposals,accepted_proposals,votes,endorsements,survey_answers,results,debates
-https://www.decidim.barcelona,Decidim Barcelona,decidim.barcelona,0.24.3,97130,19,180,28267,137274,77,199,32490,3051,27066,12310,251929,11290,25101,5612,18
-https://www.participate.nyc.gov,OSP Agora,NYC Civic Engagement Commission (CEC),0.23.6,2889,2,2,189,3538,3,3,189,168,147,50,0,162,10252,0,0
-https://omastadi.hel.fi,City of Helsinki participationary platform,OmaStadi,0.23.6,73475,1,1,9989,0,0,0,0,0,0,0,0,0,0,0,0
+https://www.decidim.barcelona,Decidim Barcelona,decidim.barcelona,0.24.3,97138,18,180,28267,137289,77,199,32490,3055,27066,12319,251929,11290,25101,5612,18
+https://www.participate.nyc.gov,OSP Agora,NYC Civic Engagement Commission (CEC),0.23.6,2895,2,2,189,3539,3,3,189,168,147,50,0,162,10252,0,0
+https://omastadi.hel.fi,City of Helsinki participationary platform,OmaStadi,0.23.6,73490,1,1,9990,0,0,0,0,0,0,0,0,0,0,0,0
 https://plazapublica.cdmx.gob.mx,Plaza Pública,Plaza Pública,0.20.0,5059,2,1,1374,0,0,0,0,0,0,0,0,0,0,0,0
-https://kakogawa.diycities.jp,Code for Japan Decidim,加古川市 市民参加型合意形成プラットフォーム,0.23.0.dev,271,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+https://kakogawa.diycities.jp,Code for Japan Decidim,加古川市 市民参加型合意形成プラットフォーム,0.23.0.dev,276,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0
 https://quartieridee.ch,Quartieridee,Quartieridee,0.22.0,1327,0,8,320,0,0,0,0,0,0,0,0,0,0,0,0
-https://partecipazione.comune.milano.it,My Application Name,Comune di Milano | Milano Partecipa,0.20.0,4644,3,0,64,0,0,0,0,0,0,0,0,0,0,0,0
-https://participez.nancy.fr,Ville de Nancy,Ville de Nancy,0.22.0,3137,0,0,268,4744,1,2,1407,8,893,50,954,1258,0,25,0
-https://mun.tampere.fi,Mun Tampere,Mun Tampere,0.24.3,5489,2,0,267,5918,2,0,267,0,379,227,0,40,0,12,0
-https://participa.rosario.gob.ar,Rosario Participa,Rosario Participa,0.22.0,553,5,7,1,630,5,7,14,298,400,322,241,8,10,0,0
-https://decide.belem.pa.gov.br,Tá Selado!,TÁ SELADO,0.24.1,1066,1,0,126,2493,1,0,172,103,230,0,774,414,0,0,0
-https://borgerkraft.trondheim.kommune.no,Decidim TK,Borgerkraft,0.24.0,288,1,0,14,251,4,3,14,12,115,0,6,1,56,0,0
+https://partecipazione.comune.milano.it,My Application Name,Comune di Milano | Milano Partecipa,0.20.0,4699,3,0,64,0,0,0,0,0,0,0,0,0,0,0,0
+https://participez.nancy.fr,Ville de Nancy,Ville de Nancy,0.22.0,3141,0,0,268,4756,1,2,1407,8,893,50,954,1258,0,25,0
+https://mun.tampere.fi,Mun Tampere,Mun Tampere,0.24.3,5494,2,0,267,5925,2,0,267,0,379,227,0,40,0,12,0
+https://decide.belem.pa.gov.br,Tá Selado!,TÁ SELADO,0.24.1,1068,1,0,127,2496,1,0,174,103,231,0,776,416,0,0,0
+https://borgerkraft.trondheim.kommune.no,Decidim TK,Borgerkraft,0.24.0,291,1,0,14,251,4,3,14,12,115,0,6,1,56,0,0
 https://folkebudsjett.no,Decidim TK,Stavanger kommune,0.24.0,144,0,0,59,82,12,0,86,0,19,0,4,3,2,0,0
-https://erabaki.pamplona.es,Erabaki Pamplona,erabaki.pamplona,0.22.0,2256,6,17,55,0,0,0,0,0,0,0,0,0,0,0,0
-https://participer.lausanne.ch,OSP Agora,Lausanne participe - Plateforme de participation de la Ville de Lausanne,0.23.1,213,3,0,43,391,4,1,71,3,81,7,0,194,90,0,0
-https://participa.reus.cat,My Application Name,Reus Participa,0.19.0,5780,1,1,306,6689,9,1,308,52,570,110,18429,656,11451,0,0
-https://osallistu.vantaa.fi,Vantaa Decidim,Vantaan osallistuva budjetointi,0.24.3,1617,1,0,167,2143,4,0,167,17,535,290,0,10,0,0,0
+https://erabaki.pamplona.es,Erabaki Pamplona,erabaki.pamplona,0.22.0,2259,6,17,55,0,0,0,0,0,0,0,0,0,0,0,0
+https://participer.lausanne.ch,OSP Agora,Lausanne participe - Plateforme de participation de la Ville de Lausanne,0.23.1,214,3,0,43,391,4,1,71,3,81,7,0,194,90,0,0
+https://participa.reus.cat,My Application Name,Reus Participa,0.19.0,5780,1,1,306,6694,9,1,308,52,570,110,18429,656,11451,0,0
+https://osallistu.vantaa.fi,Vantaa Decidim,Vantaan osallistuva budjetointi,0.24.3,1620,1,0,168,2148,4,0,168,17,535,290,0,10,0,0,0
 https://waterloo.monopinion.belgium.be,bosa,Waterloo,0.22.0,219,0,0,111,259,1,0,111,0,78,0,535,30,0,0,0
-https://www.lhon-participa.cat,Decidim Hospitalet,l'h-on participa,0.24.2,5536,1,17,0,11589,11,18,3,238,9478,20,51,15,113070,13,0
-https://decidim.santcugat.cat,Decidim Sant Cugat,Decidim Sant Cugat,0.23.6,9236,0,11,239,13133,29,11,748,176,670,19,30429,281,1785,140,0
-https://participez.nanterre.fr,participez.nanterre.fr,participez.nanterre.fr,0.22.0,3037,1,2,302,7235,17,2,507,44,259,79,0,135,10128,85,56
+https://www.lhon-participa.cat,Decidim Hospitalet,l'h-on participa,0.24.2,5539,1,17,0,11592,11,18,3,239,9478,20,51,15,113070,13,0
+https://decidim.santcugat.cat,Decidim Sant Cugat,Decidim Sant Cugat,0.23.6,9246,0,11,239,13144,29,11,748,176,670,19,30429,281,1785,140,0
+https://participez.nanterre.fr,participez.nanterre.fr,participez.nanterre.fr,0.22.0,3039,1,2,302,7244,17,2,507,44,259,79,0,135,10128,85,56
 https://decidim-esparreguera.diba.cat,Decidim DIBA,Esparreguera Decideix,0.23.6,62,3,0,2,78,12,0,2,3,219,52,0,6,0,0,0
-https://participa.terrassa.cat,Participa a Terrassa,Participa a Terrassa,0.24.2,9711,8,27,798,11096,52,27,951,258,1178,314,9121,876,12,81,0
-https://osallistu.tuusula.fi,Tuusulan kunta,Tuusulan kunta,0.24.3,6297,1,0,461,7035,10,0,474,36,1415,626,344,237,0,108,0
+https://participa.terrassa.cat,Participa a Terrassa,Participa a Terrassa,0.24.2,9717,8,27,798,11099,53,27,951,270,1178,314,9121,876,12,81,0
+https://osallistu.tuusula.fi,Tuusulan kunta,Tuusulan kunta,0.24.3,6298,1,0,461,7036,10,0,474,36,1415,626,344,237,0,108,0
 https://nivelles.monopinion.belgium.be,bosa,Nivelles,0.22.0,167,0,0,53,205,2,0,53,1,25,0,253,10,4320,0,0
 https://www.budget-participatif-romainville.fr,OSP Agora,Budget participatif de Romainville,0.22.0,509,0,0,195,910,2,0,201,12,167,65,1,645,0,0,0
 https://decideix.ajmalgrat.cat,Decidim Ajuntament de Malgrat de Mar,Decideix Malgrat de Mar,0.21.0,317,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0
-https://espluguesparticipa.diba.cat,Decidim DIBA,Esplugues de Llobregat,0.23.6,2144,1,7,152,4215,16,8,175,207,722,276,4066,267,0,8,4
-https://decidim.sabadell.cat,Decidim Sabadell,Decidim Sabadell,0.22.0,12260,2,11,0,0,0,0,0,0,0,0,0,0,0,0,0
+https://espluguesparticipa.diba.cat,Decidim DIBA,Esplugues de Llobregat,0.23.6,2144,1,7,152,4216,16,8,175,207,722,276,4066,267,0,8,4
+https://decidim.sabadell.cat,Decidim Sabadell,Decidim Sabadell,0.22.0,12266,2,11,0,0,0,0,0,0,0,0,0,0,0,0,0
 https://atelierdevosidees.loiret.fr,Département du Loiret,L'atelier de vos idées,0.22.0,3093,2,0,307,7734,9,0,301,0,296,114,6,430,2178,46,0
 https://uccle.monopinion.belgium.be,bosa,Uccle,0.22.0,1115,2,0,250,1452,4,0,281,3,113,16,1656,74,30540,0,0
-https://decidim.calafell.cat,Decidim Calafell,Decidim Calafell,0.24.3,4103,9,10,129,4959,20,10,140,60,208,124,2589,312,2508,91,1
-https://participa.santboi.cat,Multitenant Decideix,Ajuntament de Sant Boi de Llobregat,0.23.6,1892,3,18,179,2471,15,18,317,58,190,41,194,1030,9,28,17
-https://participation.lillemetropole.fr,Plateforme Citoyenne MEL,À Vous La Parole ! ,0.18.0,5230,8,15,805,7661,58,3,3189,47,1371,0,3064,1506,31306,0,94
-https://participa.gencat.cat,Participa,Participa gencat,0.24.3,15513,16,68,1029,21544,252,74,1951,330,5206,653,8405,6650,29732,7,12
-https://petitions.assemblee-nationale.fr,decidim,Plateforme des pétitions de l’Assemblée nationale,0.22.0.dev,131960,0,0,0,131965,0,0,0,0,0,0,0,0,0,0,0
-https://petitions.senat.fr,opensourcepolitics,e-pétitions du Sénat,0.21.0.pre.dev,171095,0,0,0,171039,0,0,0,0,0,0,0,0,0,0,0
-https://consultation.quebec.ca,decidim,Consultation Québec,0.22.0,22223,6,0,76,0,0,0,0,0,0,0,0,0,0,0,0
-https://dekamer.mijnopinie.belgium.be,bosa,Pétitions - Petities ,0.22.0,5073,0,0,0,4921,0,0,1,0,0,0,0,0,0,0,0
-https://partecipazione.regione.puglia.it,Puglia Partecipa,Puglia Partecipa,0.18.0,1051,12,0,12,0,0,0,0,0,0,0,0,0,0,0,0
-https://partecipa.gov.it,Formez Decidim,ParteciPa,0.20.0,8213,3,0,458,0,0,0,0,0,0,0,0,0,0,0,0
+https://decidim.calafell.cat,Decidim Calafell,Decidim Calafell,0.24.3,4109,9,10,129,4966,20,10,140,60,208,124,2589,312,2577,91,1
+https://participa.santboi.cat,Multitenant Decideix,Ajuntament de Sant Boi de Llobregat,0.23.6,1893,3,18,179,2474,15,18,317,58,190,41,194,1030,9,28,17
+https://participation.lillemetropole.fr,Plateforme Citoyenne MEL,À Vous La Parole ! ,0.18.0,5234,7,15,808,7670,58,3,3191,47,1375,0,3068,1507,31306,0,94
+https://participa.gencat.cat,Participa,Participa gencat,0.24.3,15546,16,68,1029,21585,252,74,1951,330,5206,653,8405,6650,29756,7,12
+https://petitions.assemblee-nationale.fr,decidim,Plateforme des pétitions de l’Assemblée nationale,0.22.0.dev,132024,0,0,0,132027,0,0,0,0,0,0,0,0,0,0,0
+https://petitions.senat.fr,opensourcepolitics,e-pétitions du Sénat,0.21.0.pre.dev,171911,0,0,0,171900,0,0,0,0,0,0,0,0,0,0,0
+https://consultation.quebec.ca,decidim,Consultation Québec,0.22.0,22242,6,0,76,0,0,0,0,0,0,0,0,0,0,0,0
+https://dekamer.mijnopinie.belgium.be,bosa,Pétitions - Petities ,0.22.0,5159,0,0,0,4921,0,0,1,0,0,0,0,0,0,0,0
+https://partecipazione.regione.puglia.it,Puglia Partecipa,Puglia Partecipa,0.18.0,1055,12,0,12,0,0,0,0,0,0,0,0,0,0,0,0
+https://partecipa.gov.it,Formez Decidim,ParteciPa,0.20.0,8215,3,0,458,0,0,0,0,0,0,0,0,0,0,0,0
 https://www.visc.ad,pre.visc.ad,VISC,0.20.0,396,3,0,15,0,0,0,0,0,0,0,0,0,0,0,0
 https://mon.incubateur.anct.gouv.fr,OSP Agora,Mon Incubateur des Territoires,0.23.1,1135,0,0,327,1785,2,0,327,17,553,408,0,3898,42,0,0
-https://participa.premet25.cat,Participa Premet25,PREMET25,0.24.2,41,2,0,0,62,2,0,0,10,134,0,35,0,0,0,0
-https://participer.loire-atlantique.fr,Loire Atlantique,participer.loire-atlantique.fr,0.23.6,2155,4,0,187,3119,11,0,289,59,825,40,643,0,1572,0,0
+https://participa.premet25.cat,Participa Premet25,PREMET25,0.24.2,41,2,0,0,63,2,0,0,10,134,0,35,0,0,0,0
+https://participer.loire-atlantique.fr,Loire Atlantique,participer.loire-atlantique.fr,0.23.6,2159,4,0,187,3126,11,0,289,59,825,40,643,0,1572,0,0
 https://monopinion.belgium.be,bosa,MyOpinion,0.22.0,329,4,0,93,416,8,0,139,1,79,0,1102,33,0,0,0
-https://ecrivons.angers.fr,Participation citoyenne Ville d'Angers,Ecrivons Angers,0.23.1,13540,6,12,2771,18518,25,12,3096,139,2327,881,412,5651,11503,48,0
+https://ecrivons.angers.fr,Participation citoyenne Ville d'Angers,Ecrivons Angers,0.23.1,13545,6,12,2771,18521,25,12,3096,139,2330,881,412,5653,11503,48,0
 https://decidim.diba.cat,Decidim DIBA,Decidim Diputació de Barcelona,0.23.6,47,0,1,0,64,0,1,0,0,0,0,34,0,0,0,0
-https://labs.openheritage.eu,OpenHeritage Participatory Platform,OpenHeritage Participatory Platform,0.24.3,1107,4,3,27,1275,16,3,50,29,149,25,199,12,766,0,0
-https://decidim.barcelonaenergia.cat,Decidim BarcelonaEnergia,Consell de persones usuàries de Barcelona Energia,0.23.6,250,0,2,25,394,2,2,34,3,110,0,3,7,150,0,0
+https://stratnumgaspesie.com,TCTIC,Stratégie numérique de la Gaspésie,0.23.0,58,3,2,7,0,0,0,0,0,0,0,0,0,0,0,0
+https://labs.openheritage.eu,OpenHeritage Participatory Platform,OpenHeritage Participatory Platform,0.24.3,1114,4,3,27,1282,16,3,50,29,149,25,199,12,766,0,0
+https://decidim.barcelonaenergia.cat,Decidim BarcelonaEnergia,Consell de persones usuàries de Barcelona Energia,0.23.6,251,0,2,25,397,2,2,34,3,110,0,3,7,150,0,0
 https://codefor.fr,decidim.f0rk,Code for France,0.16.1,179,9,2,6,0,0,0,0,0,0,0,0,0,0,0,0
 https://contribuez.conventioncitoyennepourleclimat.fr,OSP Agora,Contribuez à la Convention Citoyenne pour le Climat,0.18.0,2065,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 https://participa.uned.es,Decidim Populate,UNED,0.24.2,2565,0,0,284,2566,1,0,284,0,34,0,7450,0,0,0,0
-https://participation.u-bordeaux.fr,OSP Agora,Université de Bordeaux,0.21.0.pre.dev,2380,1,33,142,2548,6,26,133,16,151,36,929,656,12,15,5
-https://participa.favb.cat,Decidim Barcelona Organizations,Participa - FAVB,0.23.5,326,1,15,47,532,3,16,498,141,164,0,223,1,156,0,0
+https://participation.u-bordeaux.fr,OSP Agora,Université de Bordeaux,0.21.0.pre.dev,2383,1,33,142,2548,6,26,133,16,151,36,929,656,12,15,5
+https://participa.favb.cat,Decidim Barcelona Organizations,Participa - FAVB,0.23.5,329,1,15,47,544,3,16,498,141,164,0,223,1,156,0,0
 https://participate.oidp.net,Participate OIDP,OIDP,0.23.5,2533,0,0,2290,6880,9,0,1445,0,202,55,5501,804,0,0,0
-https://fic.decidim.barcelona,Decidim Barcelona Organizations,Decidim Fabra i Coats,0.23.5,101,0,5,0,206,0,6,3,23,0,0,0,0,0,0,0
+https://fic.decidim.barcelona,Decidim Barcelona Organizations,Decidim Fabra i Coats,0.23.5,104,0,5,0,208,0,6,3,23,0,0,0,0,0,0,0
 https://decidim.coterrats.com,Decidim Barcelona Organizations,Decidim Coterrats,0.23.5,30,0,1,0,32,3,1,0,2,36,12,89,2,0,0,1
-https://forum.transformadora.org,Decidim Barcelona Organizations,FSMET 2020,0.23.5,7162,0,47,164,43670,4,47,328,227,97,21,952,77,369,0,0
-https://decidim.tjussana.cat,Decidim Barcelona Organizations,Decidim Torre Jussana,0.23.5,87,0,0,0,159,0,1,2,0,1,0,0,0,0,0,0
-https://participons.debatpublic.fr,CNDP - plateforme participative,Commission nationale du débat public,0.18.0,2055,0,1,3820,3209,11,0,3529,0,26,0,0,3,1,0,0
+https://forum.transformadora.org,Decidim Barcelona Organizations,FSMET 2020,0.23.5,7179,0,47,164,43941,4,47,328,227,97,21,952,77,369,0,0
+https://decidim.tjussana.cat,Decidim Barcelona Organizations,Decidim Torre Jussana,0.23.5,87,0,0,0,160,0,1,2,0,1,0,0,0,0,0,0
+https://participons.debatpublic.fr,CNDP - plateforme participative,Commission nationale du débat public,0.18.0,2056,0,1,3820,3213,11,0,3529,0,26,0,0,3,1,0,0
 https://participa.ateneus.cat,Decidim Barcelona Organizations,Participa AteneusCAT,0.23.5,331,0,0,0,466,4,0,102,10,0,0,0,0,0,0,73
-https://participa.leconomat.queviure.cat,Decidim Barcelona Organizations,Decidim ECONOMAT SOCIAL,0.23.5,49,0,4,0,431,0,5,12,4,0,0,0,0,0,0,0
-https://medborgarbudget.lundby.goteborg.se,decidim-lundby,Din idé,0.24.1,270,1,0,10,535,1,0,11,0,81,63,0,17,0,7,0
-https://dialog.sigtuna.se,decidim-sigtuna,Sigtuna,0.24.0.dev,20,1,0,0,41,1,0,0,1,0,0,0,0,0,0,0
-https://meta.decidim.org,Metadecidim,Decidim,0.24.2,3694,4,14,3233,6344,9,15,4015,252,1501,644,1738,1801,221,7,4
-https://democratie.brussels,bosa,democratie.brussels,0.22.0,488,0,3,0,498,0,3,0,1,0,0,15,0,0,0,0
-https://jeparticipe.impactons.debatpublic.fr,CNDP - plateforme participative,imPACtons - Le débat public sur l’agriculture,0.18.0,8286,0,0,2403,13003,9,0,2176,0,107,0,0,12008,74130,0,0
-https://jeparticipe.toulouse.fr,OSP Agora,Je participe !,0.23.6,2082,22,21,0,5869,71,22,3,45,1411,265,1941,3469,1605,14,1
+https://participa.leconomat.queviure.cat,Decidim Barcelona Organizations,Decidim ECONOMAT SOCIAL,0.23.5,52,0,4,0,434,0,5,12,4,0,0,0,0,0,0,0
+https://medborgarbudget.lundby.goteborg.se,decidim-lundby,Din idé,0.24.1,280,1,0,10,542,1,0,11,0,81,63,0,17,0,7,0
+https://dialog.bostadsbolaget.se,decidim-bb,Bostadsbolaget,0.24.1,46,0,0,10,114,1,0,17,9,73,0,0,12,0,0,0
+https://dialog.sigtuna.se,decidim-sigtuna,Sigtuna,0.24.0.dev,22,1,0,0,41,1,0,0,1,0,0,0,0,0,0,0
+https://meta.decidim.org,Metadecidim,Decidim,0.24.2,3705,4,14,3238,6361,9,15,4016,252,1501,644,1738,1806,221,7,4
+https://democratie.brussels,bosa,democratie.brussels,0.22.0,493,0,3,0,498,0,3,0,1,0,0,15,0,0,0,0
+https://jeparticipe.impactons.debatpublic.fr,CNDP - plateforme participative,imPACtons - Le débat public sur l’agriculture,0.18.0,8286,0,0,2403,13006,9,0,2176,0,107,0,0,12008,74130,0,0
+https://jeparticipe.toulouse.fr,OSP Agora,Je participe !,0.23.6,2092,22,21,0,5912,71,22,3,46,1454,265,1941,3568,1652,14,1
 https://plateforme-cooperative-cnrlapepiniere.gapas.org,OSP Agora,Plateforme collaborative du CNRHR La Pépinière,0.23.1,220,0,3,0,447,3,3,117,7,120,0,0,9,8,0,0
-https://laparoleestavous.printempsmarseillais.fr,Printemps marseillais,Printemps marseillais,0.18.0,418,0,1,156,0,0,0,0,0,0,0,0,0,0,0,0
+https://laparoleestavous.printempsmarseillais.fr,Printemps marseillais,Printemps marseillais,0.18.0,421,0,1,156,0,0,0,0,0,0,0,0,0,0,0,0
 https://participer.aptic.club,OSP Agora,Plateforme de co-design de #APTIC,0.18.0,138,0,1,0,481,0,4,74,0,682,0,0,0,0,0,0
 https://ravier-amboise2020.fr,OSP Agora,Brice Ravier | Amboise 2020,0.18.0,73,0,0,36,101,6,0,173,17,55,0,2,74,0,165,24
-https://agorasso.codefor.fr,OSP Agora,Agorasso,0.18.0,317,2,16,112,454,10,17,354,14,231,0,298,106,2373,11,3
-https://fabriquecitoyenne.reveillonsannecy.fr,OSP Agora,La Fabrique Citoyenne Réveillons Annecy !,0.18.0,164,0,0,302,225,10,0,302,0,199,0,37,862,0,0,0
+https://agorasso.codefor.fr,OSP Agora,Agorasso,0.18.0,319,2,16,112,455,10,17,354,14,231,0,298,106,2373,11,3
+https://fabriquecitoyenne.reveillonsannecy.fr,OSP Agora,La Fabrique Citoyenne Réveillons Annecy !,0.18.0,164,0,0,302,226,10,0,302,0,199,0,37,862,0,0,0
+https://smart-isula.corsica,OSP Agora,Smart Isula,0.18.0,42,0,0,6,27,0,1,0,6,0,0,0,0,0,0,0
 https://participation.touraine.fr,OSP Agora,CD37,0.18.0,6079,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 https://patly.org,OSP Agora,"PATLY  : Vers un système alimentaire plus durable, inclusif et résilient.",0.18.0,150,0,13,1,203,4,13,8,21,27,0,35,0,0,0,0
-https://conseilcitoyen.rillieuxlapape.fr,OSP Agora,Rillieux-la-Pape,0.22.0,144,1,4,0,217,4,4,0,0,6,0,2,0,12057,512,0
-https://lafabrique.grenobleencommun.fr,OSP Agora,Grenoble en commun - La Fabrique,0.18.0,211,0,1,179,264,0,1,181,9,711,0,0,1,0,0,0
+https://participer.valdemarne.fr,participer.valdemarne.fr,Participation citoyenne Val-de-Marne,0.22.0,2583,2,1,215,4190,4,2,238,5,612,290,0,46,32,51,4
+https://conseilcitoyen.rillieuxlapape.fr,OSP Agora,Rillieux-la-Pape,0.22.0,146,1,4,0,218,4,4,0,0,6,0,2,0,12091,512,0
+https://lafabrique.grenobleencommun.fr,OSP Agora,Grenoble en commun - La Fabrique,0.18.0,211,0,1,179,265,0,1,181,9,711,0,0,1,0,0,0
 https://vision-campus.decathlon.fr,OSP Agora,Vision Campus Villeneuve d'Ascq,0.16.1,1495,0,0,140,10,1,0,2,3,0,0,0,0,0,0,0
+https://budgetparticipatif.saintjeandebraye.fr,Saint-Jean de Braye,Budget participatif de Saint-Jean de Braye,0.18.0,1130,0,2,98,1524,2,0,337,21,77,34,23,4,0,13,0
 https://budget-participatif.rivp.fr,Budget participatif RIVP,Budget Participatif RIVP,0.16.1,306,4,0,37,0,0,0,0,0,0,0,0,0,0,0,0
 https://atelierdevosidees.loiret.fr,Département du Loiret,L'atelier de vos idées,0.22.0,3093,2,0,307,7734,9,0,301,0,296,114,6,430,2178,46,0
-https://participez.villeurbanne.fr,OSP Agora,Participez à Villeurbanne,0.22.0,1685,3,0,85,2604,5,0,465,17,256,0,69,410,12653,0,0
-https://asukasbudjetti.turku.fi,Turku Asukasbudjetti,Turku Asukasbudjetti,0.24.3,6031,1,0,370,6236,1,0,371,0,341,238,621,3,0,52,0
+https://participez.villeurbanne.fr,OSP Agora,Participez à Villeurbanne,0.22.0,1705,3,0,121,2639,5,0,469,17,270,0,69,509,12653,0,0
+https://asukasbudjetti.turku.fi,Turku Asukasbudjetti,Turku Asukasbudjetti,0.24.3,6035,1,0,370,6241,1,0,371,0,341,238,621,3,0,52,0
 https://ruutibudjetti.hel.fi,City of Helsinki participationary platform,RuutiBudjetti,0.23.6,20167,2,1,85,0,0,0,0,0,0,0,0,0,0,0,0
-https://club.decidim.opensourcepolitics.eu,Club utilisateurs de Decidim,Club des utilisateurs francophones de Decidim,0.18.0,286,0,8,78,131,2,4,66,10,98,6,14,65,0,0,4
+https://club.decidim.opensourcepolitics.eu,Club utilisateurs de Decidim,Club des utilisateurs francophones de Decidim,0.18.0,290,0,8,78,131,2,4,66,10,98,6,14,65,0,0,4
 https://staging.decidim.codegram.com,Decidim Codegram Staging,Windler-Pfannerstill,0.25.0.dev,246,2,4,158,0,0,0,0,0,0,0,0,0,0,0,0
-https://decidim.barcelonaenergia.cat,Decidim BarcelonaEnergia,Consell de persones usuàries de Barcelona Energia,0.23.6,250,0,2,25,394,2,2,34,3,110,0,3,7,150,0,0
-https://www.decidimmataro.cat,Decidim Mataró,Decidim Mataró,0.21.0,5566,4,25,166,0,0,0,0,0,0,0,0,0,0,0,0
-https://participa.salou.cat,Decidim Salou,Salou Participa,0.18.0,442,0,1,121,846,1,1,121,0,195,28,1219,0,665,0,0
-https://decidim.sitges.cat,Decidim Sitges App,Decidim Sitges,0.21.0,406,1,11,50,0,0,0,0,0,0,0,0,0,0,0,0
-https://reptes.cataloniaiot.com,Decidim I2CAT APP,reptes IoT Catalan Alliance,0.23.4,142,0,23,0,317,1,23,1,1,23,0,1,0,0,13,0
-https://participa.gavaciutat.cat,Decidim Populate,"Gavà Participa, Gavà Decideix",0.24.2,1824,1,0,147,4883,46,0,162,25,400,56,8535,24,2554,2,2
-https://participa.rubi.cat,Participa Rubí,Participa Rubí,0.23.1,1373,1,0,206,0,0,0,0,0,0,0,0,0,0,0,0
+https://decidim.barcelonaenergia.cat,Decidim BarcelonaEnergia,Consell de persones usuàries de Barcelona Energia,0.23.6,251,0,2,25,397,2,2,34,3,110,0,3,7,150,0,0
+https://www.decidimmataro.cat,Decidim Mataró,Decidim Mataró,0.21.0,5568,4,25,166,0,0,0,0,0,0,0,0,0,0,0,0
+https://participa.salou.cat,Decidim Salou,Salou Participa,0.18.0,447,0,1,121,847,1,1,121,0,195,28,1219,0,665,0,0
+https://decidim.sitges.cat,Decidim Sitges App,Decidim Sitges,0.24.3,406,1,11,50,0,0,0,0,0,0,0,0,0,0,0,0
+https://reptes.cataloniaiot.com,Decidim I2CAT APP,reptes IoT Catalan Alliance,0.23.4,142,0,23,0,318,1,23,1,1,23,0,1,0,0,13,0
+https://participa.gavaciutat.cat,Decidim Populate,"Gavà Participa, Gavà Decideix",0.24.2,1826,1,0,147,4888,46,0,162,25,400,56,8535,24,2554,2,2
+https://participa.rubi.cat,Participa Rubí,Participa Rubí,0.23.1,1378,1,0,206,0,0,0,0,0,0,0,0,0,0,0,0
 https://participa.vilanova.cat,Participa Vilanova,Participa Vilanova,0.24.2,5885,3,5,361,7010,10,5,398,25,925,264,240,174,0,0,0
 https://coincidim.cat,Decidim per l'aigua de Barcelona,(CO)INCIDIM,0.24.3,98,4,0,3,125,4,3,36,5,154,2,0,10,12,0,0
 https://encomuparticipa.barcelonaencomu.cat,Fem Barcelona En Comú,Barcelona En Comú,0.24.3,5247,0,10,115,12942,1,18,248,12,113,25,3483,6,0,0,0
-https://decidim.infermeresdecatalunya.cat,Infermeres de Catalunya,Decidim - Infermeres de Catalunya,0.23.1,44,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0
+https://decidim.infermeresdecatalunya.cat,Infermeres de Catalunya,Decidim - Infermeres de Catalunya,0.23.1,45,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0
 https://www.uclgmeets.org,Decidim UCLG,United Cities and Local Governments ,0.23.5,345,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-https://citiesforchange.org,Cities For Change Decidim,Cities for Change,0.24.2,375,0,6,1,488,2,6,61,60,11,0,0,0,12,0,0
-https://labs.openheritage.eu,OpenHeritage Participatory Platform,OpenHeritage Participatory Platform,0.24.3,1107,4,3,27,1275,16,3,50,29,149,25,199,12,766,0,0
-https://barcelonadema-participa.cat,Barcelona Demà :: Decidim del PEMB,barcelonadema-participa,0.23.5,311,4,0,33,0,0,0,0,0,0,0,0,0,0,0,0
-https://participate.indices-culture.eu,InDICES Participatory Platform,InDICEs Participatory Space,0.24.2,129,2,5,22,140,7,7,65,41,107,22,75,54,2467,10,6
+https://citiesforchange.org,Cities For Change Decidim,Cities for Change,0.24.2,375,0,6,1,489,2,6,61,60,11,0,0,0,12,0,0
+https://labs.openheritage.eu,OpenHeritage Participatory Platform,OpenHeritage Participatory Platform,0.24.3,1114,4,3,27,1282,16,3,50,29,149,25,199,12,766,0,0
+https://barcelonadema-participa.cat,Barcelona Demà :: Decidim del PEMB,barcelonadema-participa,0.23.5,312,4,0,33,0,0,0,0,0,0,0,0,0,0,0,0
+https://participate.indices-culture.eu,InDICES Participatory Platform,InDICEs Participatory Space,0.24.2,130,2,5,22,140,7,7,65,41,107,22,75,54,2467,10,6
 https://besayaeuropa.es,Decidim Besaya Europa Cantabria,Besaya delibera en Europa,0.23.4,89,1,1,9,0,0,0,0,0,0,0,0,0,0,0,0
 https://participa.sabarca.cat,Participa.Sabarca,Ajuntament St. Andreu de la Barca,0.16.0,17,0,0,1,17,1,0,1,0,2,0,0,2,0,0,0
 https://decidim-granollers.diba.cat,Decidim DIBA,Granollers Participa,0.23.6,81,1,8,4,105,3,8,4,25,82,34,194,22,364,0,0
 https://decidim.cunit.cat,Decidim Ajuntament Cunit,Decidim Cunit,0.23.6,328,2,0,58,0,0,0,0,0,0,0,0,0,0,0,0
 https://edu.decidim.org,Metadecidim,Decidim Edu,0.24.2,238,2,14,20,296,57,19,47,61,458,68,235,52,159,41,6
-https://participa.affac.cat,Participa Fapac,Participa aFFaC,0.24.3,506,0,45,0,725,4,45,319,0,0,0,0,0,0,0,5
-https://greensconnect.ca,Members of the GPC,Greens Connect,0.24.2,137,1,51,47,177,1,52,181,95,171,2,29,10,203,1,0
-,TOTAL,TOTAL,,745260,238,832,66394,735123,1041,785,65208,6645,65940,19099,369614,57312,399698,7200,336
+https://participa.affac.cat,Participa Fapac,Participa aFFaC,0.24.3,507,0,45,0,725,4,45,319,0,0,0,0,0,0,0,5
+https://greensconnect.ca,Members of the GPC,Greens Connect,0.24.2,138,1,51,47,182,1,52,189,95,172,2,29,23,203,1,0
+,TOTAL,TOTAL,,749886,236,830,66776,741858,1044,781,65804,6406,66368,19110,369402,57587,399894,7264,340
