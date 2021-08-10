@@ -25,6 +25,6 @@ jobs:
             git config --global user.email 'pierre@mesu.re'
             git config --global rebase.autoStash true
             git pull --rebase
-            git add organizations.csv
+            git add -A
             git commit -am "Updating the data"
             git push

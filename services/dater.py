@@ -11,8 +11,8 @@ class Dater(object):
 
     def today():
         now = Dater.now()
-        return str(datetime(now.year, now.month,
-                            now.day)).replace(' 00:00:00', '')
+        return datetime(now.year, now.month, now.day)
 
     def yesterday():
-        return Dater.today() + relativedelta(day=-1)
+        return str(Dater.today() - relativedelta(day=1)).replace(
+            ' 00:00:00', '')
