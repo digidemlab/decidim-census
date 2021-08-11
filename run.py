@@ -1,5 +1,3 @@
-import csv
-
 from services.downloader import Downloader
 from services.writer import Writer
 from services.reader import Reader

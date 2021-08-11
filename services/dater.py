@@ -1,8 +1,6 @@
 import pytz
 
-from dateutil.relativedelta import relativedelta
-
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 class Dater(object):
@@ -14,5 +12,4 @@ class Dater(object):
         return datetime(now.year, now.month, now.day)
 
     def yesterday():
-        return str(Dater.today() - relativedelta(day=1)).replace(
-            ' 00:00:00', '')
+        return str(Dater.today() - timedelta(days=1)).replace(' 00:00:00', '')
