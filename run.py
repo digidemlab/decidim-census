@@ -9,7 +9,7 @@ instances = Reader.read_csv('instances.csv')
 
 query_string = Query.create_query()
 
-organizations = []
+platforms = []
 for instance in instances:
     print('Getting data from {}'.format(instance['url']))
     result_json = Downloader.get_graphql(instance['url'], query_string)
@@ -17,19 +17,22 @@ for instance in instances:
     if not result_json:
         continue
 
-    organizations.append(Result(result_json, instance).convert_to_JSON())
+    platforms.append(Result(result_json, instance).convert_to_JSON())
 
-TOTAL = Result.calculate_totals(organizations)
+total = Result.calculate_totals(platforms)
+Writer.write_json(total, '_data/total.json')
 
-organizations.append(TOTAL)
+platforms.append(total)
+Writer.write_csv(platforms, 'platforms.csv')
 
-Writer.write_csv(organizations, 'organizations.csv')
+platforms.pop()
 
-for organization in organizations:
-    print('Updating history for {}'.format(organization['url']))
-    Writer.write_historical(organization, str(Dater.yesterday()))
+for platform in platforms:
+    print('Updating history for {}'.format(platform['platform_url']))
+    Writer.write_historical(platform, str(Dater.yesterday()))
 
-    print('Getting logo_url and colour from {}'.format(organization['url']))
-    organization = Result.add_logo_and_colour(organization)
+    print('Getting logo_url and colour from {}'.format(
+        platform['platform_url']))
+    platform = Result.add_logo_and_colour(platform)
 
-Writer.write_csv(organizations, '_data/organizations.csv')
+Writer.write_csv(platforms, '_data/platforms.csv')

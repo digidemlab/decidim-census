@@ -20,24 +20,20 @@ class Writer(object):
                                      indent=4).encode('utf-8')
             file.write(json_string.decode())
 
-    def write_historical(organization, date):
-        if organization['name'] == 'TOTAL':
-            filename = '_data/historical/TOTAL.csv'
-        else:
-            filename = '_data/historical/{} - {}.csv'.format(
-                organization['id'],
-                organization['url'].replace('https://', ''))
+    def write_historical(platform, date):
+        filename = '_data/historical/{} - {}.csv'.format(
+            platform['id'], platform['platform_url'].replace('https://', ''))
 
         data = Reader.read_csv(filename)
 
         org_with_date = {'date': date}
-        org_with_date.update(organization)
+        org_with_date.update(platform)
 
         org_with_date.pop('id')
-        org_with_date.pop('url')
-        org_with_date.pop('source')
+        org_with_date.pop('platform_url')
+        org_with_date.pop('source_url')
         org_with_date.pop('app_name')
-        org_with_date.pop('name')
+        org_with_date.pop('platform_name')
         org_with_date.pop('version')
 
         if [day for day in data if day['date'] == date] == []:
