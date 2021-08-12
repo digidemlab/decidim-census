@@ -1,0 +1,77 @@
+---
+layout: page
+---
+{{ content }}
+
+{% assign platforms = site.data.platforms %}
+{% assign total = site.data.total %}
+
+<div class="grid-container">
+    <h2>Key metrics</h2>
+    <div class="grid grid--p-3">
+        <div class="cell cell--4">
+            <div class="button button--primary button--rounded button--xl m-2">
+                {{ total.users_count }} users
+            </div>
+        </div>
+        <div class="cell cell--4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                {{ total.processes_count }} processes
+            </div>
+        </div>
+        <div class="cell cell--4">
+            <div class="button button--success button--rounded button--xl m-2">
+                {{ total.proposals }} proposals
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2>All platforms</h2>
+    <div class="grid grid--p-3">
+        {% for platform in platforms %}
+            {% if platform.name == 'TOTAL' %}
+                {% continue %}
+            {% endif %}
+        <div class="cell cell--4">
+            <a href="/platform/{{ platform.id }}">
+                <div class="card card--clickable">
+                    {% if platform.logo_url %}
+                    <div class="card__image p-4" style="background-color: {{ platform.background-color }}">
+                        <img class="image" src="{{ platform.logo_url }}"/>
+                    </div>
+                    {% endif %}
+                    <div class="card__content">
+                        <div class="card__header">
+                            <h4>
+                                {{ platform.platform_name }}
+                            </h4>
+                        </div>
+                        <div>
+                            <div class="button button--primary button--rounded mt-2">
+                                {{ platform.version }}
+                            </div>
+                            <div class="button button--secondary button--rounded mt-2">
+                                {{ platform.users_count }} users
+                            </div>
+                        </div>
+                        <div align='right' class="m-1">
+                            <a class="button button--warning button--circle mt-4" href="{{ platform.platform_url }}" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-link"> </i>
+                            </a>
+                            {% if platform.source_url %}
+                            <a class="button button--info button--circle mt-4" href="{{ platform.source_url }}" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"> </i>
+                            </a>
+                            {% endif %}
+                            <a class="button button--success button--pill mt-4" href="/platform/{{ platform.id }}">
+                                <i class="fas fa-chart-bar"></i> Explore
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+  </div>
+</div>
+

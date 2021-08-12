@@ -1,0 +1,79 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Decidim Census
+email:
+description: Dive into open data from Decidim platforms
+twitter_username: digidemlab
+github_username: digidemlab
+repository: "digidemlab/decidim-census"
+license: CC-BY-4.0
+
+base_url: "decidim-census"
+logo: "/assets/images/openup-logo-without-text.png"
+
+# Build settings
+markdown: kramdown
+remote_theme: kitian616/jekyll-TeXt-theme
+text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+
+timezone: Europe/Stockholm
+lang: en
+
+include:
+  - _pages
+
+page_gen:
+  - data: 'platforms'
+    template: 'platform'
+    name: 'id'
+    title: 'platform_name'
+    dir: 'platform'
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-datapage-generator
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/digidemlab"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/digidemlab"
+
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: article
+      sharing: true
+      license: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: article
