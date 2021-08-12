@@ -21,7 +21,6 @@ github_username: digidemlab
 repository: "digidemlab/decidim-census"
 license: CC-BY-4.0
 
-base_url: "decidim-census"
 logo: "/assets/images/openup-logo-without-text.png"
 
 # Build settings
