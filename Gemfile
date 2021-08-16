@@ -17,6 +17,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
   gem "jekyll-datapage-generator"
+  gem 'jekyll-loading-lazy'
 end
 
 gem "webrick", "~> 1.7"

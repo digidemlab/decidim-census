@@ -51,6 +51,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-datapage-generator
+  - jekyll-loading-lazy
 
 footer:
   links:
