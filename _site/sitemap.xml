@@ -31,13 +31,10 @@
 <loc>http://localhost:4000/platform/9.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/platform/10.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/platform/11.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/platform/12.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/platform/13.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/platform/14.html</loc>
@@ -133,9 +130,6 @@
 <loc>http://localhost:4000/platform/45.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/platform/46.html</loc>
-</url>
-<url>
 <loc>http://localhost:4000/platform/48.html</loc>
 </url>
 <url>
@@ -194,9 +188,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/platform/67.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/platform/68.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/platform/69.html</loc>

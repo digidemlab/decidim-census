@@ -8,18 +8,18 @@ layout: page
 
 <div class="grid-container">
     <h2>Key metrics</h2>
-    <div class="grid grid--p-3">
-        <div class="cell cell--4">
+    <div class="article-list grid grid--p-3">
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--primary button--rounded button--xl m-2">
                 {{ total.users_count }} users
             </div>
         </div>
-        <div class="cell cell--4">
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
                 {{ total.processes_count }} processes
             </div>
         </div>
-        <div class="cell cell--4">
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--success button--rounded button--xl m-2">
                 {{ total.proposals }} proposals
             </div>
@@ -27,12 +27,12 @@ layout: page
     </div>
     <br>
     <h2>All platforms</h2>
-    <div class="grid grid--p-3">
+    <div class="article-list grid grid--p-3">
         {% for platform in platforms %}
             {% if platform.name == 'TOTAL' %}
                 {% continue %}
             {% endif %}
-        <div class="cell cell--4">
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
             <a href="/platform/{{ platform.id }}">
                 <div class="card card--clickable">
                     {% if platform.logo_url %}
