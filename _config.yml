@@ -32,8 +32,23 @@ highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "t
 timezone: Europe/Stockholm
 lang: en
 
+chart: true
+
 include:
   - _pages
+
+exclude:
+  - decidim
+  - queries
+  - services
+  - .github
+  - '*.csv'
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.MD
+  - requirements.txt
+  - run.py
 
 page_gen:
   - data: 'platforms'

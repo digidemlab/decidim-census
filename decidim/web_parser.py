@@ -31,7 +31,7 @@ class WebParser(object):
             colour = WebParser.get_background_colour(embedded_css)
 
         if not colour:
-            css_url = soup.select_one('link[href*=application]')['href']
+            css_url = soup.select_one('link[href*=css]')['href']
 
             contents = Downloader.get(urllib.parse.urljoin(
                 url, css_url)).decode('utf-8')

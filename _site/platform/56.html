@@ -234,7 +234,7 @@
         font_awesome: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css',
         jquery: 'https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js',
         leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js',
-        chart: 'https://cdn.bootcss.com/Chart.js/2.7.2/Chart.bundle.min.js',
+        chart: 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js',
         gitalk: {
           js: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.js',
           css: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.css'
@@ -301,7 +301,7 @@
 <meta itemprop="headline" content="UNED">
 <div class="js-article-content">
 <div align="center" class="p-4" style="background-color: #1a181d">
-    <img class="image image--xl p-4" src="https://participa.uned.es/uploads/decidim/organization/logo/2/medium_uned_logo.png" loading="lazy">
+    <img class="image image--xl p-4" src="https://participa.uned.es/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcVlGIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--36fb45c64b7a9e50bf64ad0f4cb771f9536107e5/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9TY21WemFYcGxYM1J2WDJacGRGc0hhUUpZQW1rQm9BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--1c58c83a3dceb8da700e99a822041aad8faf522e/uned_logo.png" loading="lazy">
 </div>
 
 <br>
@@ -309,7 +309,7 @@
     <div class="grid">
         <div class="cell cell--auto">
             <div class="button button--primary button--rounded button--xl m-1">
-                0.24.2
+                0.25.0
             </div>
         </div>
         <div class="cell cell--shrink">
@@ -385,6 +385,7 @@
   </div>
 </div>
 <br>
+
 </article>
 </div>
 <section class="page__comments d-print-none"></section><!-- start custom main bottom snippet -->
@@ -717,7 +718,20 @@
 /*(function () {
 
 })();*/
+</script><script>
+  window.Lazyload.js(['https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js', 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js'], function() {
+    var $canvas = null, $this = null, _ctx = null, _text = '';
+    $('.language-chart').each(function(){
+      $this = $(this);
+      $canvas = $('<canvas></canvas>');
+      _text = $this.text();
+      $this.text('').append($canvas);
+      _ctx = $canvas.get(0).getContext('2d');
+      (_ctx && _text) && (new Chart(_ctx, JSON.parse(_text)) && $this.attr('data-processed', true));
+    });
+  });
 </script>
+
     
     <script>(function () {
   var $root = document.getElementsByClassName('root')[0];

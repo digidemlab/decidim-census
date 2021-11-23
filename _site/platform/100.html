@@ -234,7 +234,7 @@
         font_awesome: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css',
         jquery: 'https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js',
         leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js',
-        chart: 'https://cdn.bootcss.com/Chart.js/2.7.2/Chart.bundle.min.js',
+        chart: 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js',
         gitalk: {
           js: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.js',
           css: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.css'
@@ -301,7 +301,7 @@
 <meta itemprop="headline" content="Gavà Participa, Gavà Decideix">
 <div class="js-article-content">
 <div align="center" class="p-4" style="background-color: #1a181d">
-    <img class="image image--xl p-4" src="https://participa.gavaciutat.cat/uploads/decidim/organization/logo/1/medium_LogoGavaParticipa.png" loading="lazy">
+    <img class="image image--xl p-4" src="https://participa.gavaciutat.cat/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdjBLIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c05608e2a775c149b8d05ff25541d8677f0e7c3c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9TY21WemFYcGxYM1J2WDJacGRGc0hhUUpZQW1rQm9BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--1c58c83a3dceb8da700e99a822041aad8faf522e/LogoGavaParticipa%20Blanc.png" loading="lazy">
 </div>
 
 <br>
@@ -309,7 +309,7 @@
     <div class="grid">
         <div class="cell cell--auto">
             <div class="button button--primary button--rounded button--xl m-1">
-                0.24.2
+                0.25.0
             </div>
         </div>
         <div class="cell cell--shrink">
@@ -323,12 +323,12 @@
     <div class="grid grid--p-3">
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-user"></i> 1969 users
+                <i class="fas fa-user"></i> 2442 users
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-stream"></i> 1 processes
+                <i class="fas fa-stream"></i> 6 processes
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -338,7 +338,7 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-hand-paper"></i> 400 proposals
+                <i class="fas fa-hand-paper"></i> 403 proposals
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -348,7 +348,7 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-comment"></i> 147 comments
+                <i class="fas fa-comment"></i> 184 comments
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -358,7 +358,7 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-calendar"></i> 25 meetings
+                <i class="fas fa-calendar"></i> 28 meetings
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -385,6 +385,7 @@
   </div>
 </div>
 <br>
+
 </article>
 </div>
 <section class="page__comments d-print-none"></section><!-- start custom main bottom snippet -->
@@ -717,7 +718,20 @@
 /*(function () {
 
 })();*/
+</script><script>
+  window.Lazyload.js(['https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js', 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js'], function() {
+    var $canvas = null, $this = null, _ctx = null, _text = '';
+    $('.language-chart').each(function(){
+      $this = $(this);
+      $canvas = $('<canvas></canvas>');
+      _text = $this.text();
+      $this.text('').append($canvas);
+      _ctx = $canvas.get(0).getContext('2d');
+      (_ctx && _text) && (new Chart(_ctx, JSON.parse(_text)) && $this.attr('data-processed', true));
+    });
+  });
 </script>
+
     
     <script>(function () {
   var $root = document.getElementsByClassName('root')[0];

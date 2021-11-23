@@ -234,7 +234,7 @@
         font_awesome: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css',
         jquery: 'https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js',
         leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js',
-        chart: 'https://cdn.bootcss.com/Chart.js/2.7.2/Chart.bundle.min.js',
+        chart: 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js',
         gitalk: {
           js: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.js',
           css: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.css'
@@ -301,7 +301,7 @@
 <meta itemprop="headline" content="Decidim Sant Cugat">
 <div class="js-article-content">
 <div align="center" class="p-4" style="background-color: #1a181d">
-    <img class="image image--xl p-4" src="https://codit-decidim-santcugat.s3.amazonaws.com/decidim-sant-cugat/uploads/decidim/organization/logo/1/medium_logo-principal-blanc.png" loading="lazy">
+    <img class="image image--xl p-4" src="https://decidim.santcugat.cat/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb1VRIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--185408c5423f5a575fe0b1313c07b3628cb68ce7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9TY21WemFYcGxYM1J2WDJacGRGc0hhUUpZQW1rQm9BPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--869bf8bee0eea54c3d92bdbdb260d5298e40e454/logo-principal-blanc.png" loading="lazy">
 </div>
 
 <br>
@@ -309,7 +309,7 @@
     <div class="grid">
         <div class="cell cell--auto">
             <div class="button button--primary button--rounded button--xl m-1">
-                0.23.6
+                0.25.0
             </div>
         </div>
         <div class="cell cell--shrink">
@@ -327,22 +327,22 @@
     <div class="grid grid--p-3">
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-user"></i> 9554 users
+                <i class="fas fa-user"></i> 10841 users
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-stream"></i> 0 processes
+                <i class="fas fa-stream"></i> 1 processes
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-users"></i> 11 assemblies
+                <i class="fas fa-users"></i> 12 assemblies
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-hand-paper"></i> 670 proposals
+                <i class="fas fa-hand-paper"></i> 589 proposals
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -352,7 +352,7 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-comment"></i> 239 comments
+                <i class="fas fa-comment"></i> 505 comments
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -362,33 +362,34 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-calendar"></i> 186 meetings
+                <i class="fas fa-calendar"></i> 207 meetings
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-clipboard"></i> 1795 survey answers
+                <i class="fas fa-clipboard"></i> 1805 survey answers
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-tasks"></i> 140 results
+                <i class="fas fa-tasks"></i> 206 results
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-vote-yea"></i> 30328 supports
+                <i class="fas fa-vote-yea"></i> 21519 supports
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-thumbs-up"></i> 281 endorsements
+                <i class="fas fa-thumbs-up"></i> 305 endorsements
             </div>
         </div>
     </div>
   </div>
 </div>
 <br>
+
 </article>
 </div>
 <section class="page__comments d-print-none"></section><!-- start custom main bottom snippet -->
@@ -721,7 +722,20 @@
 /*(function () {
 
 })();*/
+</script><script>
+  window.Lazyload.js(['https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js', 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js'], function() {
+    var $canvas = null, $this = null, _ctx = null, _text = '';
+    $('.language-chart').each(function(){
+      $this = $(this);
+      $canvas = $('<canvas></canvas>');
+      _text = $this.text();
+      $this.text('').append($canvas);
+      _ctx = $canvas.get(0).getContext('2d');
+      (_ctx && _text) && (new Chart(_ctx, JSON.parse(_text)) && $this.attr('data-processed', true));
+    });
+  });
 </script>
+
     
     <script>(function () {
   var $root = document.getElementsByClassName('root')[0];

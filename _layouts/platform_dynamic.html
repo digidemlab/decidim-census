@@ -1,0 +1,103 @@
+---
+layout: page
+---
+
+<script>
+    const id = new URLSearchParams(window.location.search).get('id');
+    console.log(id);
+    fetch("https://raw.githubusercontent.com/digidemlab/decidim-census/master/_data/total.json")
+        .then(response => response.json())
+        .then(json => console.log(json));
+</script>
+
+{% if page.logo_url %}
+<div align='center' class="p-4" style="background-color: {{ page.background-color }}">
+    <img class="image image--xl p-4" src="{{ page.logo_url }}"/>
+</div>
+{% endif %}
+<br>
+<div class="grid-container">
+    <div class="grid">
+        <div class="cell cell--auto">
+            <div class="button button--primary button--rounded button--xl m-1">
+                {{ page.version }}
+            </div>
+        </div>
+        <div class="cell cell--shrink">
+            <a class="button button--warning button--pill button--xl m-1" href="{{ page.platform_url }}" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-link"> </i> {{ page.platform_url | replace: 'https://', '' }}
+            </a>
+            {% if page.source_url %}
+            <a class="button button--info button--pill button--xl m-1" href="{{ page.source_url }}" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"> </i> Source
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    <h2>Key metrics</h2>
+    <div class="grid grid--p-3">
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-user"></i> {{ page.users_count }} users
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-stream"></i> {{ page.processes_count }} processes
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-users"></i> {{ page.assemblies_count }} assemblies
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-hand-paper"></i> {{ page.proposals }} proposals
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-hand-peace"></i> {{ page.accepted_proposals }} accepted proposals
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-comment"></i> {{ page.comments_count }} comments
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-comment"></i> {{ page.debates }} debates
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-calendar"></i> {{ page.meetings }} meetings
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-clipboard"></i> {{ page.survey_answers }} survey answers
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-tasks"></i> {{ page.results }} results
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-vote-yea"></i> {{ page.votes }} supports
+            </div>
+        </div>
+        <div class="cell cell--12 cell--md-6 cell--lg-4">
+            <div class="button button--secondary button--rounded button--xl m-2">
+                <i class="fas fa-thumbs-up"></i> {{ page.endorsements }} endorsements
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+<br>
+

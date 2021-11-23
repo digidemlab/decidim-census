@@ -234,7 +234,7 @@
         font_awesome: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css',
         jquery: 'https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js',
         leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js',
-        chart: 'https://cdn.bootcss.com/Chart.js/2.7.2/Chart.bundle.min.js',
+        chart: 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js',
         gitalk: {
           js: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.js',
           css: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.css'
@@ -327,12 +327,12 @@
     <div class="grid grid--p-3">
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-user"></i> 2963 users
+                <i class="fas fa-user"></i> 3212 users
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-stream"></i> 3 processes
+                <i class="fas fa-stream"></i> 11 processes
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -342,17 +342,17 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-hand-paper"></i> 147 proposals
+                <i class="fas fa-hand-paper"></i> 158 proposals
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-hand-peace"></i> 50 accepted proposals
+                <i class="fas fa-hand-peace"></i> 51 accepted proposals
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-comment"></i> 192 comments
+                <i class="fas fa-comment"></i> 209 comments
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -362,12 +362,12 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-calendar"></i> 178 meetings
+                <i class="fas fa-calendar"></i> 214 meetings
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-clipboard"></i> 10252 survey answers
+                <i class="fas fa-clipboard"></i> 84 survey answers
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -382,13 +382,14 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-thumbs-up"></i> 162 endorsements
+                <i class="fas fa-thumbs-up"></i> 192 endorsements
             </div>
         </div>
     </div>
   </div>
 </div>
 <br>
+
 </article>
 </div>
 <section class="page__comments d-print-none"></section><!-- start custom main bottom snippet -->
@@ -721,7 +722,20 @@
 /*(function () {
 
 })();*/
+</script><script>
+  window.Lazyload.js(['https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js', 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js'], function() {
+    var $canvas = null, $this = null, _ctx = null, _text = '';
+    $('.language-chart').each(function(){
+      $this = $(this);
+      $canvas = $('<canvas></canvas>');
+      _text = $this.text();
+      $this.text('').append($canvas);
+      _ctx = $canvas.get(0).getContext('2d');
+      (_ctx && _text) && (new Chart(_ctx, JSON.parse(_text)) && $this.attr('data-processed', true));
+    });
+  });
 </script>
+
     
     <script>(function () {
   var $root = document.getElementsByClassName('root')[0];

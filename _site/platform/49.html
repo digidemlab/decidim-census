@@ -234,7 +234,7 @@
         font_awesome: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css',
         jquery: 'https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js',
         leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js',
-        chart: 'https://cdn.bootcss.com/Chart.js/2.7.2/Chart.bundle.min.js',
+        chart: 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js',
         gitalk: {
           js: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.js',
           css: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.css'
@@ -309,7 +309,7 @@
     <div class="grid">
         <div class="cell cell--auto">
             <div class="button button--primary button--rounded button--xl m-1">
-                0.23.1
+                0.24.3
             </div>
         </div>
         <div class="cell cell--shrink">
@@ -327,7 +327,7 @@
     <div class="grid grid--p-3">
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-user"></i> 13841 users
+                <i class="fas fa-user"></i> 15585 users
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -337,22 +337,22 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-users"></i> 12 assemblies
+                <i class="fas fa-users"></i> 10 assemblies
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-hand-paper"></i> 2339 proposals
+                <i class="fas fa-hand-paper"></i> 2361 proposals
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-hand-peace"></i> 881 accepted proposals
+                <i class="fas fa-hand-peace"></i> 930 accepted proposals
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-comment"></i> 2777 comments
+                <i class="fas fa-comment"></i> 2891 comments
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -362,12 +362,12 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-calendar"></i> 139 meetings
+                <i class="fas fa-calendar"></i> 143 meetings
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-clipboard"></i> 11503 survey answers
+                <i class="fas fa-clipboard"></i> 11862 survey answers
             </div>
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
@@ -382,13 +382,14 @@
         </div>
         <div class="cell cell--12 cell--md-6 cell--lg-4">
             <div class="button button--secondary button--rounded button--xl m-2">
-                <i class="fas fa-thumbs-up"></i> 5774 endorsements
+                <i class="fas fa-thumbs-up"></i> 6286 endorsements
             </div>
         </div>
     </div>
   </div>
 </div>
 <br>
+
 </article>
 </div>
 <section class="page__comments d-print-none"></section><!-- start custom main bottom snippet -->
@@ -721,7 +722,20 @@
 /*(function () {
 
 })();*/
+</script><script>
+  window.Lazyload.js(['https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js', 'https://cdn.bootcss.com/Chart.js/3.5.0/chart.min.js'], function() {
+    var $canvas = null, $this = null, _ctx = null, _text = '';
+    $('.language-chart').each(function(){
+      $this = $(this);
+      $canvas = $('<canvas></canvas>');
+      _text = $this.text();
+      $this.text('').append($canvas);
+      _ctx = $canvas.get(0).getContext('2d');
+      (_ctx && _text) && (new Chart(_ctx, JSON.parse(_text)) && $this.attr('data-processed', true));
+    });
+  });
 </script>
+
     
     <script>(function () {
   var $root = document.getElementsByClassName('root')[0];
