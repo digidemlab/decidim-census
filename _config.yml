@@ -38,6 +38,8 @@ include:
   - _pages
 
 exclude:
+  - tmp/
+  - vendor/
   - decidim
   - queries
   - services

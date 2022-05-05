@@ -15,6 +15,10 @@ jobs:
       - run: pip3 install --pre -r requirements.txt
       - name: Fetch data
         run: python3 run.py
+      - uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: 'gh-pages'
       - name: Commit the data
         uses: nick-invision/retry@v2
         with:
