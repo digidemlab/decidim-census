@@ -20,7 +20,7 @@ twitter_username: digidemlab
 github_username: digidemlab
 repository: "digidemlab/decidim-census"
 license: CC-BY-4.0
-
+baseurl: /
 logo: "/assets/images/openup-logo-without-text.png"
 
 # Build settings
