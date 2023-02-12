@@ -27,7 +27,7 @@ class Downloader(object):
     @staticmethod
     def get_graphql(url, query, retry=0):
         transport = AIOHTTPTransport(url=url + '/api')
-        client = Client(transport=transport)
+        client = Client(transport=transport, execute_timeout=30)
 
         try:
             return client.execute(gql('{' + query + '}'))

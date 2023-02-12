@@ -14,9 +14,12 @@ class WebParser(object):
         if not contents:
             return '', ''
 
-        htmlData = html.unescape(contents.decode('utf-8'))
-        soup = BeautifulSoup(htmlData, 'html.parser')
-        img = soup.select_one('div[class=logo-wrapper]').a.img
+        try:
+            htmlData = html.unescape(contents.decode('utf-8'))
+            soup = BeautifulSoup(htmlData, 'html.parser')
+            img = soup.select_one('div[class=logo-wrapper]').a.img
+        except AttributeError:
+            img = None
 
         if not img:
             return '', ''

@@ -21,8 +21,9 @@ class Writer(object):
             file.write(json_string.decode())
 
     def write_historical(platform, date):
+        url = platform['platform_url'].rstrip('/').replace('https://', '')
         filename = '_data/historical/{} - {}.csv'.format(
-            platform['id'], platform['platform_url'].replace('https://', ''))
+            platform['id'], url)
 
         data = Reader.read_csv(filename)
 

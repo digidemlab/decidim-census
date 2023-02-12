@@ -12,7 +12,7 @@ id,url,source
 11,https://decide.belem.pa.gov.br,
 12,https://borgerkraft.no,
 13,https://folkebudsjett.no,
-14,https://erabaki.pamplona.es,
+14,https://decide.pamplona.es,
 15,https://participer.lausanne.ch,https://github.com/OpenSourcePolitics/decidim-lausa
 16,https://participa.reus.cat,https://github.com/AjuntamentdeReus/decidim
 17,https://osallistu.vantaa.fi,
@@ -21,7 +21,7 @@ id,url,source
 20,https://decidim.santcugat.cat,https://github.com/AjuntamentdeSantCugat/decidim-sant_cugat
 21,https://rentree2019.mairie-orsay.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/orsay
 22,https://participez.nanterre.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/nanterre
-23,https://decidim-esparreguera.diba.cat,https://github.com/CodiTramuntana/decidim-esparreguera-app
+23,https://participa311-esparreguera.diba.cat,https://github.com/CodiTramuntana/decidim-esparreguera-app
 24,https://participa.terrassa.cat,https://github.com/AjuntamentDeTerrassa/decidim-terrassa
 25,https://osallistu.tuusula.fi,
 26,https://nivelles.monopinion.belgium.be,
@@ -41,7 +41,7 @@ id,url,source
 40,https://dekamer.mijnopinie.belgium.be,
 41,https://partecipazione.regione.puglia.it,
 42,https://partecipa.gov.it,https://github.com/dipartimentofunzionepubblica/partecipa
-43,https://www.visc.ad,
+43,https://processos.visc.ad,
 44,https://mon.incubateur.anct.gouv.fr,
 45,https://participa.premet25.cat,https://github.com/barcelonaregional/decidim-premet25
 46,https://participer.loire-atlantique.fr,https://github.com/OpenSourcePolitics/decidim-cd44
@@ -54,7 +54,7 @@ id,url,source
 53,https://decidim.barcelonaenergia.cat,https://github.com/CodiTramuntana/decidim-barcelona_energia-app
 54,https://codefor.fr,
 55,https://contribuez.conventioncitoyennepourleclimat.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/ccc
-56,https://participa.uned.es,
+56,https://portal.uned.es,
 57,https://participation.u-bordeaux.fr,https://github.com/OpenSourcePolitics/decidim-ubx
 58,https://participa.favb.cat,
 59,https://participate.oidp.net,
@@ -65,7 +65,7 @@ id,url,source
 64,https://participons.debatpublic.fr,https://github.com/OpenSourcePolitics/decidim-cndp
 65,https://participa.ateneus.cat,
 66,https://participa.leconomat.queviure.cat,
-67,https://medborgarbudget.lundby.goteborg.se,https://github.com/digidemlab/decidim-sweden/tree/install-lundby
+67,https://medborgarbudget.socialhisingen.goteborg.se,https://github.com/digidemlab/decidim-sweden/tree/install-lundby
 68,https://dialog.bostadsbolaget.se,https://github.com/digidemlab/decidim-sweden/tree/install-bb
 69,https://dialog.sigtuna.se,https://github.com/digidemlab/decidim-sweden/tree/install-sigtuna
 70,https://meta.decidim.org,https://github.com/decidim/metadecidim
@@ -115,10 +115,10 @@ id,url,source
 114,https://decidim.cunit.cat,
 115,https://edu.decidim.org,
 116,https://participa.affac.cat,
-117,https://greensconnect.ca,
+117,https://leadership.green.ca,
 118,https://parlonsensemble-cachan.fr,https://github.com/OpenSourcePolitics/decidim-cac
 119,https://www.participatepbchicago.org,https://github.com/OpenSourcePolitics/decidim-chi
-120,https://ruutibudjetti.hel.fi,https://github.com/City-of-Helsinki/decidim-helsinki
+120,https://nuortenbudjetti.hel.fi,https://github.com/City-of-Helsinki/decidim-helsinki
 121,https://diputacio-decidim.ddgi.cat,
 122,https://concertation.t6nord-sytral.fr,https://github.com/OpenSourcePolitics/decidim-sytral
 123,https://projet.lesecologistes.fr,https://github.com/OpenSourcePolitics/decidim-eelv
@@ -137,7 +137,7 @@ id,url,source
 136,https://jemexprime.bzh/,
 137,https://participer.deciderensemble.com/,https://github.com/OpenSourcePolitics/decidim-app
 138,https://participons-communes.fr/,https://github.com/OpenSourcePolitics/decidim-app
-139,https://algopo.osp.cat/,https://github.com/OpenSourcePolitics/decidim-app
+139,https://decidim.u-pec.fr,https://github.com/OpenSourcePolitics/decidim-app
 140,https://participer.arcueil.fr/,https://github.com/OpenSourcePolitics/decidim-app
 141,https://jeparticipe.villejuif.fr/,https://github.com/OpenSourcePolitics/decidim-villejuif
 142,https://participons.ville-valbonne.fr/,https://github.com/OpenSourcePolitics/decidim-app
