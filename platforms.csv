@@ -1,94 +1,93 @@
 id,platform_url,source_url,app_name,platform_name,version,users_count,processes_count,assemblies_count,comments_count,users,participatory_processes,assemblies,comments,meetings,proposals,accepted_proposals,votes,endorsements,survey_answers,results,debates
-1,https://www.decidim.barcelona,https://github.com/AjuntamentdeBarcelona/decidim-barcelona,Decidim Barcelona,decidim.barcelona,0.27.5,119570,18,379,31734,119544,144,397,35410,5249,32487,14663,263572,12432,17697,5827,64
+1,https://www.decidim.barcelona,https://github.com/AjuntamentdeBarcelona/decidim-barcelona,Decidim Barcelona,decidim.barcelona,0.27.5,119583,18,379,31734,119569,144,397,35410,5249,32487,14663,263572,12460,17697,5827,64
 2,https://www.participate.nyc.gov,https://github.com/OpenSourcePolitics/decidim-nyc,OSP Agora,NYC Civic Engagement Commission (CEC),0.26.7,17338,1,5,2970,31742,6,7,11059,50,6995,96,0,7166,24394,0,0
-3,https://omastadi.hel.fi,https://github.com/City-of-Helsinki/decidim-helsinki,City of Helsinki participationary platform,OmaStadi,0.27.4,50840,1,1,12669,0,0,0,0,0,0,0,0,0,0,0,0
-5,https://kakogawa.diycities.jp,https://github.com/codeforjapan/decidim-cfj,Code for Japan Decidim,加古川市 市民参加型合意形成プラットフォーム,0.27.5,2760,3,3,92,2227,14,13,2645,5,359,2,316,7,0,4,131
-7,https://partecipazione.comune.milano.it,https://github.com/Comune-Milano/dedicim-mi,My Application Name,Comune di Milano | Milano Partecipa,0.20.0,35009,2,0,64,0,0,0,0,0,0,0,0,0,0,0,0
+3,https://omastadi.hel.fi,https://github.com/City-of-Helsinki/decidim-helsinki,City of Helsinki participationary platform,OmaStadi,0.27.4,50843,1,1,12669,0,0,0,0,0,0,0,0,0,0,0,0
+5,https://kakogawa.diycities.jp,https://github.com/codeforjapan/decidim-cfj,Code for Japan Decidim,加古川市 市民参加型合意形成プラットフォーム,0.27.5,2761,3,3,92,2227,14,13,2645,5,359,2,316,7,0,4,131
+7,https://partecipazione.comune.milano.it,https://github.com/Comune-Milano/dedicim-mi,My Application Name,Comune di Milano | Milano Partecipa,0.20.0,35012,1,0,64,0,0,0,0,0,0,0,0,0,0,0,0
 12,https://borgerkraft.no,,Decidim TK,Borgerkraft,0.28.0,2474,0,1,49,251,4,3,14,12,115,0,6,1,56,0,0
-15,https://participer.lausanne.ch,https://github.com/OpenSourcePolitics/decidim-lausa,Voca,Lausanne participe - Plateforme de participation de la Ville de Lausanne,0.27.6,4000,9,1,326,8641,24,3,163,14,228,74,0,530,5134,13,0
-19,https://www.lhon-participa.cat,https://github.com/HospitaletDeLlobregat/decidim-hospitalet,Decidim Hospitalet,l'h-on participa,0.27.4,13672,0,22,2,13645,17,23,2,273,9469,20,12,15,113070,215,0
-20,https://decidim.santcugat.cat,https://github.com/AjuntamentdeSantCugat/decidim-sant_cugat,Decidim Sant Cugat,Decidim Sant Cugat,0.26.2,53614,5,18,547,63708,63,18,1633,247,789,56,22816,309,2263,249,0
-22,https://participez.nanterre.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/nanterre,OSP Agora,participez.nanterre.fr,0.26.7,7980,2,9,715,20584,26,10,796,68,514,193,0,749,12863,217,56
+15,https://participer.lausanne.ch,https://github.com/OpenSourcePolitics/decidim-lausa,Voca,Lausanne participe - Plateforme de participation de la Ville de Lausanne,0.27.6,4001,9,1,326,8641,24,3,163,14,228,74,0,530,5134,13,0
+19,https://www.lhon-participa.cat,https://github.com/HospitaletDeLlobregat/decidim-hospitalet,Decidim Hospitalet,l'h-on participa,0.27.4,13682,0,22,2,13672,17,23,2,273,9469,20,12,15,113070,215,0
+20,https://decidim.santcugat.cat,https://github.com/AjuntamentdeSantCugat/decidim-sant_cugat,Decidim Sant Cugat,Decidim Sant Cugat,0.26.2,53678,5,18,547,63796,63,18,1635,247,789,56,22816,309,2263,249,0
+22,https://participez.nanterre.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/nanterre,OSP Agora,participez.nanterre.fr,0.26.7,7965,2,9,715,20584,26,10,796,68,514,193,0,749,12863,217,56
 23,https://participa311-esparreguera.diba.cat,https://github.com/CodiTramuntana/decidim-esparreguera-app,Decidim DIBA,Participa311 decideix.esparreguera.cat,0.26.8,1157,1,8,108,1157,40,8,110,39,349,104,1,665,6340,0,0
-24,https://participa.terrassa.cat,https://github.com/AjuntamentDeTerrassa/decidim-terrassa,Participa a Terrassa,Participa a Terrassa,0.26.5,26655,1,55,1273,40954,89,55,1274,629,1449,406,9121,1088,1332,116,0
-25,https://osallistu.tuusula.fi,,Tuusulan kunta,Tuusulan kunta,0.27.5,12035,1,0,1026,12035,12,0,1074,36,2824,1119,344,244,0,171,0
-31,https://atelierdevosidees.loiret.fr,https://github.com/OpenSourcePolitics/decidim-cd45,OSP Agora,L'atelier de vos idées,0.26.7,28008,1,0,1223,37797,11,0,1414,0,350,150,6,861,1050,46,0
-32,https://uccle.monopinion.belgium.be,,My Application Name,Uccle,0.27.4,36269,4,0,31,35890,12,0,31,17,213,51,0,94,0,0,0
-33,https://decidim.calafell.cat,https://github.com/AjuntamentdeCalafell/decidim-calafell,Decidim Calafell APP,Decidim Calafell,0.27.5,26129,6,12,272,21064,22,12,380,77,379,218,3185,418,1119,102,1
-34,https://participa.santboi.cat,,CodiTramuntana's Decidim APP,Ajuntament de Sant Boi de Llobregat,0.27.3,10994,2,18,417,10923,30,18,1046,120,162,59,1499,329,9,43,32
-35,https://participation.lillemetropole.fr,https://github.com/OpenSourcePolitics/decidim-mel,OSP Agora,À Vous La Parole ! ,0.26.7,22937,9,0,422,29193,102,2,4343,117,884,76,609,253,55774,0,40
-36,https://participa.gencat.cat,https://github.com/gencat/participa,Participa,Participa gencat,0.26.9,63117,22,80,6198,63115,535,91,7178,723,10906,1925,12729,17139,129902,7,12
-38,https://petitions.senat.fr,https://github.com/OpenSourcePolitics/decidim-sen,opensourcepolitics,e-pétitions du Sénat,0.22.0.dev,589644,0,0,0,589643,0,0,0,0,0,0,0,0,0,0,0
+24,https://participa.terrassa.cat,https://github.com/AjuntamentDeTerrassa/decidim-terrassa,Participa a Terrassa,Participa a Terrassa,0.26.5,26676,1,55,1273,41006,89,55,1274,629,1449,406,9121,1088,1332,116,0
+25,https://osallistu.tuusula.fi,,Tuusulan kunta,Tuusulan kunta,0.27.5,12036,1,0,1026,12036,12,0,1074,36,2824,1119,344,244,0,171,0
+31,https://atelierdevosidees.loiret.fr,https://github.com/OpenSourcePolitics/decidim-cd45,OSP Agora,L'atelier de vos idées,0.26.7,28021,1,0,1224,37810,11,0,1415,0,350,150,6,861,1050,46,0
+32,https://uccle.monopinion.belgium.be,,My Application Name,Uccle,0.27.4,36752,4,0,31,36231,12,0,31,17,213,51,0,94,0,0,0
+33,https://decidim.calafell.cat,https://github.com/AjuntamentdeCalafell/decidim-calafell,Decidim Calafell APP,Decidim Calafell,0.27.5,26142,6,12,272,21064,22,12,380,77,379,218,3185,418,1119,102,1
+35,https://participation.lillemetropole.fr,https://github.com/OpenSourcePolitics/decidim-mel,OSP Agora,À Vous La Parole ! ,0.26.7,22946,8,0,422,29213,102,2,4344,117,884,76,609,253,55827,0,40
+36,https://participa.gencat.cat,https://github.com/gencat/participa,Participa,Participa gencat,0.26.9,63148,22,80,6198,63144,535,91,7178,723,10906,1925,12729,17139,129902,7,12
+38,https://petitions.senat.fr,https://github.com/OpenSourcePolitics/decidim-sen,opensourcepolitics,e-pétitions du Sénat,0.22.0.dev,589669,0,0,0,589669,0,0,0,0,0,0,0,0,0,0,0
 40,https://dekamer.mijnopinie.belgium.be,,bosa,Pétitions - Petities ,0.22.0,195724,0,0,0,195848,0,0,1,0,0,0,0,0,0,0,0
-42,https://partecipa.gov.it,https://github.com/dipartimentofunzionepubblica/partecipa,ParteciPa,ParteciPa,0.25.2,22160,3,9,834,34346,47,10,940,36,1002,0,14316,429,202281,0,0
+42,https://partecipa.gov.it,https://github.com/dipartimentofunzionepubblica/partecipa,ParteciPa,ParteciPa,0.25.2,22160,3,9,834,34347,47,10,940,36,1002,0,14316,429,202281,0,0
 43,https://processos.visc.ad,,pre.visc.ad,VISC,0.20.0,422,0,0,37,0,0,0,0,0,0,0,0,0,0,0,0
 46,https://participer.loire-atlantique.fr,https://github.com/OpenSourcePolitics/decidim-cd44,Loire Atlantique,participer.loire-atlantique.fr,0.27.4,28592,8,0,635,28592,33,0,736,109,2022,332,684,1,1572,56,0
-47,https://participez.nouvelle-aquitaine.fr,https://github.com/OpenSourcePolitics/decidim-nouvelle-aquitaine,OSP Agora,La Région vous donne la parole,0.26.7,23713,15,0,1062,32346,71,0,1535,71,4430,35,12848,2362,6,0,0
-49,https://ecrivons.angers.fr,https://github.com/OpenSourcePolitics/decidim-ang,OSP Agora,Ecrivons Angers,0.27.4,21059,3,2,3663,21059,39,3,4147,178,3108,1036,1023,8056,13819,73,0
+47,https://participez.nouvelle-aquitaine.fr,https://github.com/OpenSourcePolitics/decidim-nouvelle-aquitaine,OSP Agora,La Région vous donne la parole,0.26.7,23728,15,0,1062,32367,71,0,1535,71,4430,35,12848,2362,6,0,0
+49,https://ecrivons.angers.fr,https://github.com/OpenSourcePolitics/decidim-ang,OSP Agora,Ecrivons Angers,0.27.4,21058,3,2,3663,21058,39,3,4149,178,3108,1036,1023,8056,13819,73,0
 50,https://decidim.diba.cat,https://github.com/diputacioBCN/decidim-diba,Decidim DIBA,Decidim Diputació de Barcelona,0.26.8,66,0,1,0,66,0,1,0,0,0,0,34,0,0,0,0
 54,https://codefor.fr,,decidim.f0rk,Code for France,0.16.1,179,9,2,7,0,0,0,0,0,0,0,0,0,0,0,0
-57,https://participation.u-bordeaux.fr,https://github.com/OpenSourcePolitics/decidim-ubx,OSP Agora,Université de Bordeaux,0.21.0.pre.dev,14719,7,12,750,35559,25,18,945,31,436,40,2699,1128,116,28,6
-58,https://participa.favb.cat,,Decidim Barcelona Organizations,Participa - FAVB,0.27.4,12166,3,17,374,12139,11,18,852,391,1508,10,223,4,156,0,0
-59,https://participate.oidp.net,,Participate OIDP,OIDP,0.27.3,49024,1,0,8417,89362,21,0,8944,9,697,193,98199,3150,0,0,0
-60,https://fic.decidim.barcelona,,Decidim Barcelona Organizations,Decidim Fabra i Coats,0.27.4,8066,0,3,3,8039,0,4,9,11,6,2,12,0,0,0,0
-63,https://decidim.tjussana.cat,,Decidim Barcelona Organizations,Decidim Torre Jussana,0.27.4,14988,0,0,44,14908,1,1,70,18,33,0,13,0,2280,0,0
-66,https://participa.leconomat.queviure.cat,,Decidim Barcelona Organizations,Decidim ECONOMAT SOCIAL,0.27.4,6996,0,4,121,6988,0,5,124,4,0,0,0,0,0,0,0
-67,https://medborgarbudget.socialhisingen.goteborg.se,https://github.com/digidemlab/decidim-sweden/tree/install-lundby,decidim-lundby,Medborgarbudget Hisingen,0.26.5,2635,0,0,3,4537,4,0,169,0,144,105,0,14,432,7,0
-69,https://dialog.sigtuna.se,https://github.com/digidemlab/decidim-sweden/tree/install-sigtuna,decidim-sigtuna,Sigtuna,0.25.2,792,0,0,10,1786,2,0,15,5,162,126,0,5,0,0,0
-70,https://meta.decidim.org,https://github.com/decidim/metadecidim,Metadecidim,Metadecidim,0.28.1,35054,5,11,4082,35023,12,11,4982,335,2022,880,2599,2447,231,56,8
-71,https://democratie.brussels,,bosa,democratie.brussels,0.22.0,10228,0,6,0,10264,0,6,0,1,0,0,15,0,0,0,0
-74,https://plateforme-cooperative-cnrlapepiniere.gapas.org,,OSP Agora,Plateforme collaborative du CNRHR La Pépinière,0.26.7,489,0,3,19,2673,4,3,220,11,176,0,0,13,8,0,0
+57,https://participation.u-bordeaux.fr,https://github.com/OpenSourcePolitics/decidim-ubx,OSP Agora,Université de Bordeaux,0.21.0.pre.dev,14719,7,12,750,35561,25,18,945,31,436,40,2699,1128,116,28,6
+58,https://participa.favb.cat,,Decidim Barcelona Organizations,Participa - FAVB,0.27.4,12173,3,17,374,12166,11,18,852,391,1508,10,223,4,156,0,0
+59,https://participate.oidp.net,,Participate OIDP,OIDP,0.27.3,49039,1,0,8417,89362,21,0,8944,9,697,193,98199,3150,0,0,0
+60,https://fic.decidim.barcelona,,Decidim Barcelona Organizations,Decidim Fabra i Coats,0.27.4,8085,0,3,3,8065,0,4,9,11,6,2,12,0,0,0,0
+63,https://decidim.tjussana.cat,,Decidim Barcelona Organizations,Decidim Torre Jussana,0.27.4,15044,0,0,44,14987,1,1,70,18,33,0,13,0,2280,0,0
+66,https://participa.leconomat.queviure.cat,,Decidim Barcelona Organizations,Decidim ECONOMAT SOCIAL,0.27.4,7004,0,4,121,6996,0,5,124,4,0,0,0,0,0,0,0
+67,https://medborgarbudget.socialhisingen.goteborg.se,https://github.com/digidemlab/decidim-sweden/tree/install-lundby,decidim-lundby,Medborgarbudget Hisingen,0.26.5,2635,0,0,3,4538,4,0,169,0,144,105,0,14,432,7,0
+69,https://dialog.sigtuna.se,https://github.com/digidemlab/decidim-sweden/tree/install-sigtuna,decidim-sigtuna,Sigtuna,0.25.2,792,0,0,10,1789,2,0,15,5,162,126,0,5,0,0,0
+70,https://meta.decidim.org,https://github.com/decidim/metadecidim,Metadecidim,Metadecidim,0.28.1,35074,5,11,4083,35052,12,11,4982,335,2022,880,2599,2447,231,56,8
+71,https://democratie.brussels,,bosa,democratie.brussels,0.22.0,10228,0,6,0,10265,0,6,0,1,0,0,15,0,0,0,0
+74,https://plateforme-cooperative-cnrlapepiniere.gapas.org,,OSP Agora,Plateforme collaborative du CNRHR La Pépinière,0.26.7,489,0,3,19,2680,4,3,220,11,176,0,0,13,8,0,0
 76,https://participer.aptic.club,,OSP Agora,Plateforme de co-design de #APTIC,0.18.0,138,0,1,0,481,0,4,74,0,682,0,0,0,0,0,0
-81,https://participation.touraine.fr,https://github.com/OpenSourcePolitics/decidim-cd37,OSP Agora,CD37,0.26.7,12576,2,0,124,37809,5,1,394,10,255,0,44199,919,32503,0,0
-83,https://participer.valdemarne.fr,https://github.com/OpenSourcePolitics/decidim-cd94,OSP Agora,Plateforme de participation du Département du  Val-de-Marne,0.26.7,16678,0,0,0,30443,2,2,266,5,1056,290,0,428,32,51,4
-84,https://conseilcitoyen.rillieuxlapape.fr,,OSP Agora,Rillieux-la-Pape,0.26.7,3838,0,3,0,8412,3,3,0,0,7,0,5,0,13491,633,0
+81,https://participation.touraine.fr,https://github.com/OpenSourcePolitics/decidim-cd37,OSP Agora,CD37,0.26.7,12578,2,0,124,37815,5,1,394,10,255,0,44199,919,32503,0,0
+83,https://participer.valdemarne.fr,https://github.com/OpenSourcePolitics/decidim-cd94,OSP Agora,Plateforme de participation du Département du  Val-de-Marne,0.26.7,16697,0,0,0,30467,2,2,266,5,1056,290,0,428,32,51,4
+84,https://conseilcitoyen.rillieuxlapape.fr,,OSP Agora,Rillieux-la-Pape,0.26.7,3845,0,3,0,8428,3,3,0,0,7,0,5,0,13491,633,0
 87,https://budgetparticipatif.saintjeandebraye.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/sjdb,OSP Agora,Budget participatif de Saint-Jean de Braye,0.26.7,2070,1,0,443,7775,4,0,522,21,319,141,23,376,0,41,0
-89,https://atelierdevosidees.loiret.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/loiret,OSP Agora,L'atelier de vos idées,0.26.7,28009,1,0,1223,37797,11,0,1414,0,350,150,6,861,1050,46,0
-90,https://participez.villeurbanne.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/villeurbanne,OSP Agora,Participez à Villeurbanne,0.27.4,18935,10,0,2079,18933,23,1,2743,73,1123,200,16,4200,13644,59,2
+89,https://atelierdevosidees.loiret.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/loiret,OSP Agora,L'atelier de vos idées,0.26.7,28021,1,0,1224,37810,11,0,1415,0,350,150,6,861,1050,46,0
+90,https://participez.villeurbanne.fr,https://github.com/OpenSourcePolitics/osp-app/tree/alt/villeurbanne,OSP Agora,Participez à Villeurbanne,0.27.4,18940,10,0,2079,18940,23,1,2743,73,1123,200,16,4200,13644,59,2
 91,https://asukasbudjetti.turku.fi,https://github.com/City-of-Turku/decidim,Turku Asukasbudjetti,Turku Asukasbudjetti,0.27.5,11104,1,0,847,11430,3,0,788,0,1200,662,621,211,0,141,0
-92,https://club.decidim.opensourcepolitics.eu,,OSP Agora,Club des utilisateurs francophones de Decidim,0.26.7,715,0,5,390,6996,2,5,527,10,188,21,3,65,0,22,4
-96,https://www.decidimmataro.cat,https://github.com/AjuntamentDeMataro/decidimmataro.cat,Decidim Mataró,Decidim Mataró,0.21.0,12618,8,26,535,0,0,0,0,0,0,0,0,0,0,0,0
-100,https://participa.gavaciutat.cat,,Decidim Gava APP,"Gavà Participa, Gavà Decideix",0.27.4,3164,1,0,284,3164,93,0,292,30,766,185,15626,422,2576,2,3
-101,https://participa.rubi.cat,,Participa Rubí,Participa Rubí,0.26.3,12930,2,0,457,17192,71,0,457,85,704,185,958,709,13766,13,0
+92,https://club.decidim.opensourcepolitics.eu,,OSP Agora,Club des utilisateurs francophones de Decidim,0.26.7,713,0,5,390,7006,2,5,527,10,188,21,3,65,0,22,4
+96,https://www.decidimmataro.cat,https://github.com/AjuntamentDeMataro/decidimmataro.cat,Decidim Mataró,Decidim Mataró,0.21.0,12625,8,26,535,0,0,0,0,0,0,0,0,0,0,0,0
+100,https://participa.gavaciutat.cat,,Decidim Gava APP,"Gavà Participa, Gavà Decideix",0.27.4,3164,1,0,284,3164,93,0,293,30,766,185,15626,422,2576,2,3
+101,https://participa.rubi.cat,,Participa Rubí,Participa Rubí,0.26.3,12938,2,0,457,17210,71,0,457,85,704,185,958,709,13766,13,0
 103,https://coincidim.cat,,Decidim per l'aigua de Barcelona,(CO)INCIDIM,0.26.0,668,5,0,3,233,5,3,36,5,160,2,0,10,12,0,0
 104,https://encomuparticipa.barcelonaencomu.cat,,Fem Barcelona En Comú,Barcelona En Comú,0.27.5,5382,0,11,137,5382,17,22,400,19,296,25,3479,14,0,0,2
-106,https://www.uclgmeets.org,,Decidim UCLG,United Cities and Local Governments ,0.27.3,5689,0,1,52,3065,14,5,31,144,76,0,0,3,0,0,0
-109,https://barcelonadema-participa.cat,,Barcelona Demà :: Decidim del PEMB,barcelonadema-participa,0.27.5,13248,0,0,64,13246,7,0,69,40,600,0,0,27,5053,0,0
-110,https://participate.indices-culture.eu,,InDICES Participatory Platform,inDICEs Participatory Space,0.26.1,11997,6,8,45,11651,36,8,95,93,171,23,113,67,7595,10,1
-111,https://besayaeuropa.es,,Decidim Besaya Europa Cantabria,Besaya delibera en Europa,0.27.3,7924,0,1,41,0,0,0,0,0,0,0,0,0,0,0,0
-114,https://decidim.cunit.cat,,Decidim Cunit APP,Decidim Cunit,0.27.6,17342,3,0,110,17285,16,0,110,31,175,60,0,519,832,9,0
-115,https://edu.decidim.org,,Metadecidim,Decidim Edu,0.28.1,4728,0,15,25,4720,60,20,57,63,492,71,120,52,167,41,8
-116,https://participa.affac.cat,,Participa Affac,Participa aFFaC,0.27.6,2937,0,0,0,2510,5,1,357,0,0,0,0,0,72471,0,5
-118,https://parlonsensemble-cachan.fr,https://github.com/OpenSourcePolitics/decidim-cac,OSP Agora,Parlons Ensemble de Cachan,0.26.7,1097,4,7,165,2010,17,8,258,66,145,6,0,739,145,38,3
-119,https://www.participatepbchicago.org,https://github.com/OpenSourcePolitics/decidim-chi,OSP Agora,Participatory Budgeting Chicago,0.26.2,5845,0,0,535,8865,13,1,717,6,568,67,185,2404,20671,0,0
+106,https://www.uclgmeets.org,,Decidim UCLG,United Cities and Local Governments ,0.27.3,5695,0,1,52,3065,14,5,31,144,76,0,0,3,0,0,0
+109,https://barcelonadema-participa.cat,,Barcelona Demà :: Decidim del PEMB,barcelonadema-participa,0.27.5,13277,0,0,64,13272,7,0,69,40,600,0,0,27,5053,0,0
+110,https://participate.indices-culture.eu,,InDICES Participatory Platform,inDICEs Participatory Space,0.26.1,12002,6,8,45,11651,36,8,95,93,171,23,113,67,7595,10,1
+111,https://besayaeuropa.es,,Decidim Besaya Europa Cantabria,Besaya delibera en Europa,0.27.3,7958,0,1,41,0,0,0,0,0,0,0,0,0,0,0,0
+114,https://decidim.cunit.cat,,Decidim Cunit APP,Decidim Cunit,0.27.6,17381,3,0,110,17339,16,0,110,31,175,60,0,519,832,9,0
+115,https://edu.decidim.org,,Metadecidim,Decidim Edu,0.28.1,4740,0,15,25,4728,60,20,57,63,492,71,120,52,167,41,8
+116,https://participa.affac.cat,,Participa Affac,Participa aFFaC,0.27.6,2939,0,0,0,2510,5,1,357,0,0,0,0,0,72471,0,5
+118,https://parlonsensemble-cachan.fr,https://github.com/OpenSourcePolitics/decidim-cac,OSP Agora,Parlons Ensemble de Cachan,0.26.7,1097,4,7,165,2013,17,8,258,66,145,6,0,739,145,38,3
+119,https://www.participatepbchicago.org,https://github.com/OpenSourcePolitics/decidim-chi,OSP Agora,Participatory Budgeting Chicago,0.26.2,5845,0,0,535,8867,13,1,717,6,568,67,185,2404,20671,0,0
 120,https://nuortenbudjetti.hel.fi,https://github.com/City-of-Helsinki/decidim-helsinki,City of Helsinki participationary platform,Nuorten budjetti,0.27.4,41,1,1,103,0,0,0,0,0,0,0,0,0,0,0,0
-126,https://www.participons-a-verrieres.fr,https://github.com/OpenSourcePolitics/decidim-vlb,OSP Agora,Plateforme de participation citoyenne de la Ville de Verrières-le-Buisson,0.26.7,647,0,0,213,7048,2,0,216,25,378,0,0,730,0,0,0
-128,https://participez.villedelens.fr,https://github.com/OpenSourcePolitics/decidim-lens,OSP Agora,Lens,0.26.7,390,1,5,30,4015,3,5,34,2,21,5,1,23,54,0,0
-131,https://nous.malakoff.fr,https://github.com/OpenSourcePolitics/decidim-bag,OSP Agora,Plateforme de participation de la ville de Malakoff,0.26.7,2423,1,9,119,9118,14,15,137,1,194,36,0,319,4392,0,0
-132,https://participation.bordeaux.fr,https://github.com/OpenSourcePolitics/decidim-brdx,OSP Agora,Bordeaux Participation,0.27.4,18020,6,0,2391,18016,29,0,3472,142,638,134,0,252,128885,41,0
-133,https://participons.chambery.fr,https://github.com/OpenSourcePolitics/decidim-chbry,OSP Agora,Chambéry,0.26.7,1542,7,9,89,9311,22,10,98,126,181,53,0,264,864,0,0
-138,https://participons-communes.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Plateforme participons-communes,0.26.7,634,2,14,3,778,6,15,4,1,53,18,0,9,9,3,0
-139,https://decidim.u-pec.fr,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,AlgoPo Living Lab,0.26.2,1533,4,0,853,1873,8,1,1157,0,669,85,68,1125,4581,42,0
-140,https://participer.arcueil.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Ville d'Arcueil,0.27.4,688,2,11,5,687,12,11,6,62,170,37,0,29,3691,29,0
+126,https://www.participons-a-verrieres.fr,https://github.com/OpenSourcePolitics/decidim-vlb,OSP Agora,Plateforme de participation citoyenne de la Ville de Verrières-le-Buisson,0.26.7,641,0,0,213,7050,2,0,216,25,378,0,0,730,0,0,0
+128,https://participez.villedelens.fr,https://github.com/OpenSourcePolitics/decidim-lens,OSP Agora,Lens,0.26.7,391,1,5,30,4025,3,5,34,2,21,5,1,23,54,0,0
+131,https://nous.malakoff.fr,https://github.com/OpenSourcePolitics/decidim-bag,OSP Agora,Plateforme de participation de la ville de Malakoff,0.26.7,2427,1,9,119,9132,14,15,137,1,194,36,0,319,4392,0,0
+132,https://participation.bordeaux.fr,https://github.com/OpenSourcePolitics/decidim-brdx,OSP Agora,Bordeaux Participation,0.27.4,18043,6,0,2391,18043,29,0,3472,142,638,134,0,252,129509,41,0
+133,https://participons.chambery.fr,https://github.com/OpenSourcePolitics/decidim-chbry,OSP Agora,Chambéry,0.26.7,1543,7,9,89,9472,22,10,98,126,183,55,0,264,864,0,0
+138,https://participons-communes.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Plateforme participons-communes,0.26.7,634,2,14,3,781,6,15,4,1,53,18,0,9,9,3,0
+139,https://decidim.u-pec.fr,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,AlgoPo Living Lab,0.26.2,1540,4,0,859,1881,8,1,1165,0,669,85,68,1125,4581,42,0
+140,https://participer.arcueil.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Ville d'Arcueil,0.27.4,691,1,11,5,691,12,11,6,62,170,37,0,29,3691,29,0
 141,https://jeparticipe.villejuif.fr/,https://github.com/OpenSourcePolitics/decidim-villejuif,OSP Agora,jeparticipe.villejuif.fr,0.27.4,919,3,8,130,919,16,9,201,107,403,2,7,1211,9030,0,0
-142,https://participons.ville-valbonne.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,la plateforme de participation citoyenne de Valbonne Sophia Antipolis,0.26.7,563,0,9,35,3614,14,9,35,4,31,0,2,118,9310,0,0
-143,https://decidonsensemble.tours.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Décidons ensemble - Ville de Tours,0.26.7,9640,6,9,981,10063,21,18,1005,138,817,155,6563,3417,1214,26,0
-144,https://www.participons-saintesavine.fr/,https://github.com/OpenSourcePolitics/decidim-st-savine,OSP Agora,Sainte-Savine,0.26.7,565,0,1,70,1026,13,2,100,0,118,0,940,70,392,0,0
-145,https://jeparticipe.ville-montlouis-loire.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Montlouis-sur-Loire,0.26.7,4154,3,0,30,8726,5,1,30,0,75,41,0,161,0,24,0
-146,https://participons.marseille.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Plateforme de participation de la Ville de Marseille,0.26.7,1829,2,0,0,2424,3,0,110,47,894,0,0,4,12,0,0
-147,https://oye.participer.lyon.fr/,https://github.com/OpenSourcePolitics/decidim-lyon,OSP Agora,Plateforme de participation citoyenne de la Ville de Lyon,0.27.5,11934,3,1,1911,11934,23,6,1929,127,1636,341,18099,94,352438,0,0
-149,https://participons-granville.fr/,https://github.com/OpenSourcePolitics/decidim-granville,OSP Agora,participons-granville.fr,0.26.7,372,2,5,24,965,23,5,24,48,72,22,0,6,211,0,0
-150,https://participer.fleurylesaubrais.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Fleury-les-Aubrais,0.26.7,3169,2,0,465,6887,11,0,466,4,321,97,120,1,0,40,0
-151,https://participons.colombes.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,participons.colombes.fr,0.26.7,3122,0,16,897,11891,19,16,964,76,396,84,0,3695,45042,29,0
-152,https://participez.bagneux92.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Mairie de Bagneux,0.26.7,625,6,23,0,1609,15,23,86,0,13,18,0,2,287,22,1
+142,https://participons.ville-valbonne.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,la plateforme de participation citoyenne de Valbonne Sophia Antipolis,0.26.7,562,0,9,35,3621,14,9,35,4,31,0,2,118,9310,0,0
+143,https://decidonsensemble.tours.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Décidons ensemble - Ville de Tours,0.26.7,9639,6,9,981,10065,21,18,1005,138,817,155,6563,3417,1214,26,0
+144,https://www.participons-saintesavine.fr/,https://github.com/OpenSourcePolitics/decidim-st-savine,OSP Agora,Sainte-Savine,0.26.7,565,0,1,70,1029,13,2,100,0,118,0,940,70,392,0,0
+145,https://jeparticipe.ville-montlouis-loire.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Montlouis-sur-Loire,0.26.7,4159,3,0,30,8738,5,1,30,0,75,41,0,161,0,24,0
+146,https://participons.marseille.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Plateforme de participation de la Ville de Marseille,0.26.7,1829,2,0,0,2425,3,0,110,47,894,0,0,4,12,0,0
+147,https://oye.participer.lyon.fr/,https://github.com/OpenSourcePolitics/decidim-lyon,OSP Agora,Plateforme de participation citoyenne de la Ville de Lyon,0.27.5,11950,3,1,1911,11948,23,6,1929,127,1636,341,18099,94,353173,0,0
+149,https://participons-granville.fr/,https://github.com/OpenSourcePolitics/decidim-granville,OSP Agora,participons-granville.fr,0.26.7,372,2,5,24,966,23,5,24,48,72,22,0,6,211,0,0
+150,https://participer.fleurylesaubrais.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Fleury-les-Aubrais,0.26.7,3174,2,0,465,6902,11,0,466,4,321,97,120,1,0,40,0
+151,https://participons.colombes.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,participons.colombes.fr,0.26.7,3101,0,16,897,11896,19,16,964,76,1,84,0,3695,45042,29,0
+152,https://participez.bagneux92.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Mairie de Bagneux,0.26.7,625,6,23,0,1611,15,23,86,0,13,18,0,2,287,22,1
 153,https://agirpourmaville.auch.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Auch - Agir pour ma ville,0.26.7,366,1,4,71,448,6,4,264,11,24,2,0,20,1706,0,0
 154,https://participez.antibes-juanlespins.com/,https://github.com/antibes-dev/decidim-antibes,Antibes Decidim,la plateforme de participation citoyenne d’Antibes Juan-les-Pins,0.26.5,1462,12,12,50,0,0,0,0,0,0,0,0,0,0,0,0
 155,https://jeparticipe.unicaen.fr/,https://github.com/OpenSourcePolitics/decidim-unicaen,OSP Agora,jeparticipe.unicaen.fr,0.26.2,5779,0,0,466,2943,5,2,227,5,240,11,2,2284,6272,3,0
-158,https://participate.peoplepowered.org/,decidim-people-powered,OSP Agora,People Powered,0.26.7,307,5,0,271,1017,9,1,389,2,263,72,425,597,1498,21,0
-159,https://jeparticipe.metropolegrandnancy.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Je participe - Métropole du Grand Nancy ,0.27.4,10364,20,22,1291,10364,69,35,1075,302,1932,380,36,5731,14939,58,4
-161,https://le14participe.paris/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Le14participe ,0.26.7,349,0,13,26,1094,1,19,129,278,7,0,1,49,3439,0,0
-162,https://ensemblepourleclimat.est-ensemble.fr/,,OSP Agora,Ensemble pour le climat,0.26.7,943,0,2,0,9230,2,2,118,5,2,0,5,0,0,0,0
-166,https://participationcitoyenne.ccomptes.fr/,https://github.com/openSourcePolitics/decidim-cdc,OSP Agora,Plateforme de participation de la Cour des Comptes,0.26.7,26083,1,0,5604,30330,2,0,5607,0,956,52,0,42080,762,0,0
+158,https://participate.peoplepowered.org/,decidim-people-powered,OSP Agora,People Powered,0.26.7,307,5,0,271,1020,9,1,389,2,263,72,425,597,1498,21,0
+159,https://jeparticipe.metropolegrandnancy.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Je participe - Métropole du Grand Nancy ,0.27.4,10363,20,22,1291,10363,69,35,1075,302,1932,380,36,5731,15142,58,4
+161,https://le14participe.paris/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Le14participe ,0.26.7,351,0,13,26,1096,1,19,129,278,7,0,1,49,3439,0,0
+162,https://ensemblepourleclimat.est-ensemble.fr/,,OSP Agora,Ensemble pour le climat,0.26.7,931,0,2,0,9236,2,2,118,5,2,0,5,0,0,0,0
+166,https://participationcitoyenne.ccomptes.fr/,https://github.com/openSourcePolitics/decidim-cdc,OSP Agora,Plateforme de participation de la Cour des Comptes,0.26.7,26085,1,0,5604,30330,2,0,5607,0,956,52,0,42080,762,0,0
 167,https://concertation-citoyenne.cddcasa.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,la plateforme participative du Conseil de développement de la CASA,0.26.7,59,1,0,0,125,6,1,10,0,37,0,3,4,0,0,0
 168,https://jeparticipe.besurmer.fr/,,OSP Agora,Plateforme participative de Binic-Etables sur Mer,0.26.7,326,4,5,6,441,6,13,27,23,16,0,1,7,3180,0,0
-,,,TOTAL,TOTAL,,1879754,281,939,103892,2051943,2193,1047,119788,11123,104108,25704,538508,134237,1368120,8674,387
+,,,TOTAL,TOTAL,,1869787,276,921,103484,2042334,2163,1029,118758,11003,103553,25647,537009,133936,1369726,8631,355
