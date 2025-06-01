@@ -41,7 +41,7 @@ id,url,country,source
 40,https://dekamer.mijnopinie.belgium.be,BEL,
 41,https://partecipazione.regione.puglia.it,ITA,
 42,https://partecipa.gov.it,ITA,https://github.com/dipartimentofunzionepubblica/partecipa
-43,https://processos.visc.ad,,
+43,https://processos.visc.ad,AND,
 44,https://mon.incubateur.anct.gouv.fr,FRA,
 45,https://participa.premet25.cat,ESP-CT,https://github.com/barcelonaregional/decidim-premet25
 46,https://participer.loire-atlantique.fr,FRA,https://github.com/OpenSourcePolitics/decidim-cd44
@@ -78,7 +78,7 @@ id,url,country,source
 77,https://ravier-amboise2020.fr,FRA,
 78,https://agorasso.codefor.fr,FRA,
 79,https://fabriquecitoyenne.reveillonsannecy.fr,FRA,
-80,https://smart-isula.corsica,,
+80,https://smart-isula.corsica,FRA-20R,
 81,https://participation.touraine.fr,FRA,https://github.com/OpenSourcePolitics/decidim-cd37
 82,https://patly.org,,https://github.com/OpenSourcePolitics/decidim-patly
 83,https://participer.valdemarne.fr,FRA,https://github.com/OpenSourcePolitics/decidim-cd94
@@ -97,7 +97,7 @@ id,url,country,source
 96,https://www.decidimmataro.cat,ESP-CT,https://github.com/AjuntamentDeMataro/decidimmataro.cat
 97,https://participa.salou.cat,ESP-CT,
 98,https://decidim.sitges.cat,ESP-CT,
-99,https://reptes.cataloniaiot.com,,
+99,https://reptes.cataloniaiot.com,ESP-CT,
 100,https://participa.gavaciutat.cat,ESP-CT,
 101,https://participa.rubi.cat,ESP-CT,
 102,https://participa.vilanova.cat,ESP-CT,
@@ -117,7 +117,7 @@ id,url,country,source
 116,https://participa.affac.cat,ESP-CT,
 117,https://leadership.green.ca,CAN,
 118,https://parlonsensemble-cachan.fr,FRA,https://github.com/OpenSourcePolitics/decidim-cac
-119,https://www.participatepbchicago.org,,https://github.com/OpenSourcePolitics/decidim-chi
+119,https://www.participatepbchicago.org,USA,https://github.com/OpenSourcePolitics/decidim-chi
 120,https://nuortenbudjetti.hel.fi,FIN,https://github.com/City-of-Helsinki/decidim-helsinki
 121,https://diputacio-decidim.ddgi.cat,ESP-CT,
 122,https://concertation.t6nord-sytral.fr,FRA,https://github.com/OpenSourcePolitics/decidim-sytral
