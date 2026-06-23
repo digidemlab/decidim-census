@@ -1,15 +1,15 @@
 id,platform_url,source_url,app_name,platform_name,version,users_count,processes_count,assemblies_count,comments_count,users,participatory_processes,assemblies,comments,meetings,proposals,accepted_proposals,votes,endorsements,survey_answers,results,debates
-3,https://omastadi.hel.fi,https://github.com/City-of-Helsinki/decidim-helsinki,City of Helsinki participationary platform,OmaStadi,0.27.9,76813,1,2,13647,0,0,0,0,0,0,0,0,0,0,0,0
-42,https://partecipa.gov.it,https://github.com/dipartimentofunzionepubblica/partecipa,ParteciPA,ParteciPa,0.28.6,27319,1,10,786,27319,69,12,1041,151,995,0,14317,431,270214,0,6
+3,https://omastadi.hel.fi,https://github.com/City-of-Helsinki/decidim-helsinki,City of Helsinki participationary platform,OmaStadi,0.27.9,76815,1,2,13647,0,0,0,0,0,0,0,0,0,0,0,0
+42,https://partecipa.gov.it,https://github.com/dipartimentofunzionepubblica/partecipa,ParteciPA,ParteciPa,0.28.6,27340,1,10,786,27340,69,12,1041,151,995,0,14317,431,270748,0,6
 43,https://processos.visc.ad,,pre.visc.ad,VISC,0.20.0,442,0,0,37,0,0,0,0,0,0,0,0,0,0,0,0
-54,https://codefor.fr,,decidim.f0rk,Code for France,0.16.1,179,9,3,29,0,0,0,0,0,0,0,0,0,0,0,0
-57,https://participation.u-bordeaux.fr,https://github.com/OpenSourcePolitics/decidim-ubx,OSP Agora,Université de Bordeaux,0.27.4,12057,0,8,631,12134,18,12,1207,40,525,72,923,1973,128,28,6
+54,https://codefor.fr,,decidim.f0rk,Code for France,0.16.1,179,9,3,30,0,0,0,0,0,0,0,0,0,0,0,0
+57,https://participation.u-bordeaux.fr,https://github.com/OpenSourcePolitics/decidim-ubx,OSP Agora,Université de Bordeaux,0.27.4,12066,0,8,632,12104,18,12,1208,40,525,72,923,1973,128,28,6
 110,https://participate.indices-culture.eu,,InDICES Participatory Platform,inDICEs Participatory Space,0.26.1,19261,0,8,50,37679,36,8,244,93,167,23,113,67,7942,10,1
 116,https://participa.affac.cat,,Participa Affac,aFFaC,0.27.10,32646,0,1,7,32646,5,2,431,0,4,1,0,0,72471,0,5
 138,https://participons-communes.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Plateforme participons-communes,0.26.7,704,0,14,4,1194,8,15,4,1,68,24,0,11,9,3,0
-139,https://decidim.u-pec.fr,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Convention citoyenne étudiante de l'université Paris-Est Créteil,0.26.2,9254,2,0,11805,18392,9,1,12877,0,1768,96,68,1664,19787,42,0
-141,https://jeparticipe.villejuif.fr/,https://github.com/OpenSourcePolitics/decidim-villejuif,OSP Agora,jeparticipe.villejuif.fr,0.27.4,2491,1,10,136,2491,20,11,214,126,404,110,7,1247,23787,0,0
-146,https://participons.marseille.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Plateforme de participation de la Ville de Marseille,0.27.4,15108,18,11,5,15108,34,14,235,171,2595,1233,0,16,103166,21,0
-154,https://participez.antibes-juanlespins.com/,https://github.com/antibes-dev/decidim-antibes,Antibes Decidim,la plateforme de participation citoyenne d’Antibes Juan-les-Pins,0.26.5,3055,0,12,54,0,0,0,0,0,0,0,0,0,0,0,0
-166,https://participationcitoyenne.ccomptes.fr/,https://github.com/openSourcePolitics/decidim-cdc,OSP Agora,Plateforme de participation de la Cour des Comptes,0.27.5,42635,0,0,14348,42612,6,0,14367,0,3969,57,0,78155,4649,0,0
-,,,TOTAL,TOTAL,,241964,32,79,41539,189575,205,75,30620,582,10495,1616,15428,83564,502153,104,18
+139,https://decidim.u-pec.fr,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Convention citoyenne étudiante de l'université Paris-Est Créteil,0.26.2,9276,2,0,11832,18566,9,1,12908,0,1768,96,68,1664,19787,42,0
+141,https://jeparticipe.villejuif.fr/,https://github.com/OpenSourcePolitics/decidim-villejuif,OSP Agora,jeparticipe.villejuif.fr,0.27.4,2500,1,10,136,2500,20,11,214,126,404,110,7,1247,23787,0,0
+146,https://participons.marseille.fr/,https://github.com/OpenSourcePolitics/decidim-app,OSP Agora,Plateforme de participation de la Ville de Marseille,0.27.4,15115,18,11,5,15114,34,14,235,171,2595,1233,0,16,103197,21,0
+154,https://participez.antibes-juanlespins.com/,https://github.com/antibes-dev/decidim-antibes,Antibes Decidim,la plateforme de participation citoyenne d’Antibes Juan-les-Pins,0.26.5,3056,0,12,54,0,0,0,0,0,0,0,0,0,0,0,0
+166,https://participationcitoyenne.ccomptes.fr/,https://github.com/openSourcePolitics/decidim-cdc,OSP Agora,Plateforme de participation de la Cour des Comptes,0.27.5,42998,0,0,14532,42979,6,0,14552,0,4002,57,0,78962,4649,0,0
+,,,TOTAL,TOTAL,,242398,32,79,41752,190122,205,75,30837,582,10528,1616,15428,84371,502718,104,18
