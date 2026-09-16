@@ -7,8 +7,14 @@ jobs:
   scrape:
     name: Fetch data
     runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
@@ -21,15 +27,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: 'gh-pages'
       - name: Commit the data
-        uses: nick-invision/retry@v2
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          timeout_seconds: 10
-          max_attempts: 5
-          command: |
-            git config --global user.name 'Pierre Mesure (Github Actions)'
-            git config --global user.email 'pierre@mesu.re'
-            git config --global rebase.autoStash true
-            git pull --rebase
-            git add -A
-            git commit -am "Updating the data"
-            git push
+          commit_message: "Auto-update the data"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "GitHub Actions <github-actions[bot]@users.noreply.github.com>"
+          skip_dirty_check: false # Only commit if there are changes
